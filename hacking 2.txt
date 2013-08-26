@@ -1,0 +1,163 @@
+Port Scanning
+A port scanner is a software application designed to probe a server or host for open ports. This is often used by administrators to verify security policies of their networks and by attackers to identify running services on a host with the view to compromise it.
+A port scan or portscan can be defined as an attack that sends client requests to a range of server port addresses on a host, with the goal of finding an active port and exploiting a known vulnerability of that service,[1] although the majority of uses of a port scan are not attacks and are simple probes to determine services available on a remote machine.
+To portsweep is to scan multiple hosts for a specific listening port. The latter is typically used in searching for a specific service, for example, an SQL-based computer worm may portsweep looking for hosts listening on TCP port 1433.[2]
+Contents
+ [hide] 
+•	1 TCP/IP basic knowledge
+•	2 Port scanning assumptions
+•	3 Port scanning types 
+o	3.1 TCP scanning
+o	3.2 SYN scanning
+o	3.3 UDP scanning
+o	3.4 ACK scanning
+o	3.5 Window scanning
+o	3.6 FIN scanning
+o	3.7 Other scan types
+•	4 Port filtering by ISPs
+•	5 Ethics
+•	6 Legal implications
+•	7 See also
+•	8 References
+•	9 External links
+
+[edit] TCP/IP basic knowledge
+The design and operation of the Internet is based on the Internet Protocol Suite, commonly also called TCP/IP. In this system, hosts and host services are referenced using two components: an address and a port number. There are 65536 distinct and usable port numbers. Most services use a limited range of numbers.
+Some port scanners scan only the most common port numbers, or ports most commonly associated with vulnerable services, on a given host. See: List of TCP and UDP port numbers.
+The result of a scan on a port is usually generalized into one of three categories:
+1.	Open or Accepted: The host sent a reply indicating that a service is listening on the port.
+2.	Closed or Denied or Not Listening: The host sent a reply indicating that connections will be denied to the port.
+3.	Filtered, Dropped or Blocked: There was no reply from the host.
+Open ports present two vulnerabilities of which administrators must be wary:
+1.	Security and stability concerns associated with the program responsible for delivering the service - Open ports.
+2.	Security and stability concerns associated with the operating system that is running on the host - Open or Closed ports.
+Filtered ports do not tend to present vulnerabilities.
+[edit] Port scanning assumptions
+All forms of port scanning rely on the assumption that the targeted host is compliant with RFC 793 - Transmission Control Protocol. Although it is the case most of the time, there is still a chance a host might send back strange packets or even generate false positives when the TCP/IP stack of the host is non-RFC-compliant or has been altered. This is especially true for less common scan techniques that are OS-dependent (FIN scanning, for example).[3] The TCP/IP stack fingerprinting method also relies on these kind of different network responses from a specific stimulus to guess the type of the operating system the host is running.
+[edit] Port scanning types
+[edit] TCP scanning
+The simplest port scanners use the operating system's network functions and is generally the next option to go to when SYN is not a feasible option (described next). Nmap calls this mode connect scan, named after the Unix connect() system call. If a port is open, the operating system completes the TCP three-way handshake, and the port scanner immediately closes the connection to avoid performing a kind of Denial-of-service attack.[3] Otherwise an error code is returned. This scan mode has the advantage that the user does not require special privileges. However, using the OS network functions prevents low-level control, so this scan type is less common. This method is "noisy", particularly if it is a "portsweep": the services can log the sender IP address and Intrusion detection systems can raise an alarm.
+[edit] SYN scanning
+SYN scan is another form of TCP scanning. Rather than use the operating system's network functions, the port scanner generates raw IP packets itself, and monitors for responses. This scan type is also known as "half-open scanning", because it never actually opens a full TCP connection. The port scanner generates a SYN packet. If the target port is open, it will respond with a SYN-ACK packet. The scanner host responds with a RST packet, closing the connection before the handshake is completed.[3]
+The use of raw networking has several advantages, giving the scanner full control of the packets sent and the timeout for responses, and allowing detailed reporting of the responses. There is debate over which scan is less intrusive on the target host. SYN scan has the advantage that the individual services never actually receive a connection. However, the RST during the handshake can cause problems for some network stacks, in particular simple devices like printers. There are no conclusive arguments either way.
+[edit] UDP scanning
+UDP scanning is also possible, although there are technical challenges. UDP is a connectionless protocol so there is no equivalent to a TCP SYN packet. However, if a UDP packet is sent to a port that is not open, the system will respond with an ICMP port unreachable message. Most UDP port scanners use this scanning method, and use the absence of a response to infer that a port is open. However, if a port is blocked by a firewall, this method will falsely report that the port is open. If the port unreachable message is blocked, all ports will appear open. This method is also affected by ICMP rate limiting.[4]
+An alternative approach is to send application-specific UDP packets, hoping to generate an application layer response. For example, sending a DNS query to port 53 will result in a response, if a DNS server is present. This method is much more reliable at identifying open ports. However, it is limited to scanning ports for which an application specific probe packet is available. Some tools (e.g., nmap) generally have probes for less than 20 UDP services, while some commercial tools (e.g., nessus) have as many as 70. In some cases, a service may be listening on the port, but configured not to respond to the particular probe packet.
+To cope with the different limitations of each approach, some scanners offer a hybrid method. For example, using nmap with the -sUV option will start by using the ICMP port unreachable method, marking all ports as either "closed" or "open|filtered". The open|filtered ports are then probed for application responses and marked as "open" if one is received.
+[edit] ACK scanning
+ACK scanning is one of the more unique scan types, as it does not exactly determine whether the port is open or closed, but whether the port is filtered or unfiltered. This is especially good when attempting to probe for the existence of a firewall and its rulesets. Simple packet filtering will allow established connections (packets with the ACK bit set), whereas a more sophisticated stateful firewall might not.[5]
+[edit] Window scanning
+Rarely used because of its outdated nature, window scanning is fairly untrustworthy in determining whether a port is opened or closed. It generates the same packet as an ACK scan, but checks whether the window field of the packet has been modified. When the packet reaches its destination, a design flaw attempts to create a window size for the packet if the port is open, flagging the window field of the packet with 1's before it returns to the sender. Using this scanning technique with systems that no longer support this implementation returns 0's for the window field, labeling open ports as closed.[6]
+[edit] FIN scanning
+Since SYN scans are not surreptitious enough, firewalls are, in general, scanning for and blocking packets in the form of SYN packets.[3] FIN packets are able to pass by firewalls with no modification to its purpose. Closed ports reply to a FIN packet with the appropriate RST packet, whereas open ports ignore the packet on hand. This is typical behavior due to the nature of TCP, and is in some ways an inescapable downfall.[7]
+[edit] Other scan types
+Some more unusual scan types exist. These have various limitations and are not widely used. Nmap supports most of these.[5]
+•	X-mas and Null Scan - Are similar to FIN scanning, but[3]: 
+o	X-mas sends packets with FIN, URG and PUSH flags turned on like a Christmas tree
+o	Null sends a packet with no TCP flags set
+•	Protocol scan - determines what IP level protocols (TCP, UDP, GRE, etc.) are enabled.
+•	Proxy scan - a proxy (SOCKS or HTTP) is used to perform the scan. The target will see the proxy's IP address as the source. This can also be done using some FTP servers.
+•	Idle scan - Another method of scanning without revealing one's IP address, taking advantage of the predictable ip id flaw.
+•	CatSCAN - Checks ports for erroneous packets.
+•	ICMP scan - determines if a host responds to ICMP requests, such as echo (ping), netmask, etc.
+[edit] Port filtering by ISPs
+Many Internet service providers restrict their customers' ability to perform port scans to destinations outside of their home networks. This is usually covered in the terms of service or acceptable use policy to which the customer must agree.[8][9] Some ISPs implement packet filters or transparent proxies that prevent outgoing service requests to certain ports. For example, if an ISP provides a transparent HTTP proxy on port 80, port scans of any address will appear to have port 80 open, regardless of target host's actual configuration.
+[edit] Ethics
+The information gathered by a port scan has many legitimate uses including network inventory and the verification of the security of a network. Port scanning can, however, also be used to compromise security. Many exploits rely upon port scans to find open ports and send specific data patterns in an attempt to trigger a condition known as a buffer overflow. Such behavior can compromise the security of a network and the computers therein, resulting in the loss or exposure of sensitive information and the ability to do work.[3]
+The threat level caused by a port scan can vary greatly according to the method used to scan, the kind of port scanned, its number, the value of the targeted host and the administrator who monitors the host. But a port scan is often viewed as a first step for an attack, therefore considered seriously because it can disclose much sensitive information about the host[10] Despite this, the probability of a port scan alone followed by a real attack is small. The probability of an attack is much higher when the port scan is associated with a vulnerability scan.[11]
+[edit] Legal implications
+Because of the inherently open and decentralized architecture of the Internet, lawmakers have struggled since its creation to define legal boundaries that permit effective prosecution of cybercriminals. Cases involving port scanning activities are an example of the difficulties encountered in judging violations. Although these cases are rare, most of the time the legal process involves proving that an intent to commit a break-in or unauthorized access existed, rather than just the performance of a port scan:
+•	In June 2003, an Israeli, Avi Mizrahi, was accused by the Israeli Police of the offense of attempting the unauthorized access of computer material. He had port scanned the Mossad website. He was acquitted of all charges on February 29, 2004. The judge ruled that these kinds of actions should not be discouraged when they are performed in a positive way.[12]
+•	A 17-year old Finn was accused of attempted computer break-in by a major Finnish bank. On April 9, 2003, he was convicted of the charge by the Supreme Court and ordered to pay US$ 12,000 for the expense of the forensic analysis made by the bank. In 1998, he had port scanned the bank network in an attempt to access the closed network, but failed to do so.[13]
+•	In December 1999, Scott Moulton was arrested by the FBI and accused of attempted computer trespassing under Georgia's Computer Systems Protection Act and Computer Fraud and Abuse Act of America. At this time, his IT service company had an ongoing contract with Cherokee County of Georgia to maintain and upgrade the 911 center security. He performed several port scans on Cherokee County servers to check their security and eventually port scanned a web server monitored by another IT company, provoking a tiff which ended up in a tribunal. He was acquitted in 2000, the judge ruling there was no damage impairing the integrity and availability of the network.[14]
+In 2006, the UK Parliament had voted an amendment to the Computer Misuse Act 1990 that proves guilty a person who "makes, adapts, supplies or offers to supply any article knowing that it is designed or adapted for use in the course of or in connection with an offence under section 1 or 3 [of the CMA]".[15] Nevertheless, the area of effect of this amendment is blurred, and widely criticized by Security experts as such.[16]
+Germany, with the Strafgesetzbuch § 202a,b,c has also a similar law, and the Council of the European Union has issued a press release stating they plan to pass a similar one too, albeit more precise.[17]
+[edit] See also
+ 
+Computer security portal
+
+ 
+Internet portal
+
+ 
+Information_technology portal
+
+•	Computer security
+•	Computer system
+•	Content Vectoring Protocol
+•	Cracking
+•	Service scan
+•	Vulnerability scanner
+Detection and Characterization of Port Scan Attacks 
+Cynthia Bailey Lee 
+Chris Roedel 
+Elena Silenok 
+Department of Computer Science & Engineering 
+University of California, San Diego 
+{clbailey, croedel, esilenok}@cs.ucsd.edu 
+
+Abstract 
+Port scans represent a sizable portion of today’s Internet traffic. However, there has been little research characterizing port scan activity. The goal of this project is to analyze sample network traces to discover and classify properties of port scans. We hope that this work will help to generate better network intrusion detection systems and increase general network security. 
+1 Introduction 
+The Internet today is a complex entity comprised of diverse networks, users, and resources. Most of the users are oblivious to the design of the Internet and its components and only use the services provided by their operating system or applications. However, there is a small minority of advanced users who use their knowledge to explore potential system vulnerabilities. Hackers can compromise the vulnerable hosts and can either take over their resources or use them as tools for future attacks. With so many different protocols and countless implementations of each for different platforms, the launch of an effective attack often begins with a separate process of identifying potential victims. 
+One of the popular methods for finding susceptible hosts is port scanning. Port scanning can be defined as “hostile Internet searches for open ‘doors,’ or ports, through which intruders gain access to computers.” [7] This technique consist of sending a message to a port and listening for an answer. The received response indicates the port status and can be helpful in determining a host’s operating system and other information relevant to launching a future attack. [4] 
+The goal of this project is to analyze and characterize port scanning traffic. By defining a set of heuristics and applying them to the network trace data, we were able to isolate suspicious packets and group them into sets of scans. These sets were further analyzed to extract properties of the port scanning traffic and to collect relevant statistics. 
+The remainder of this paper is organized as follows: Section 2 describes the port scanning activity and detection methods in literature. Section 3 explains our data gathering and classification methodology and its limitations. We outline the experimental platform in Section 4, and present the results of our experiments in Section 5. We describe the related and future work in Section 6 and summarize our findings in Section 7. 
+2 Background and Related Work 
+Port scanning is a technique for discovering hosts’ weaknesses by sending port probes. Although sometimes used by system administrators for network exploration, port scanning generally refers to scans carried out by malicious users seeking out network vulnerabilities. The negative effects of port 
+Detection and Characterization of Port Scan Attack Page 1 
+scans are numerous and range from wasting resources, to congesting the network, to enabling future, more serious, attacks. 
+There is a plethora of tools that aim to determine a system’s weaknesses and determine the best method for an attack. The best known and documented tool is nmap by Fyodor from www.insecure.org. [8] Nmap uses a variety of active probing techniques and changes the packet probe options to determine a host’s operating system. Nmap offers its users the ability to randomize destination IPs and change the order of and timing between packets. This functionality can obscure the port scanning activity and thus fool intrusion detection systems. Other port scanners include queso, checkos, and SS. However, these tools do not provide all the capabilities of nmap and thus are not as popular. 
+Several port scan detection mechanisms have been developed and are commonly included as part of intrusion detection systems. However, many of the detectors are easy to evade since they use simple rules that classify a port scan as more than X distinct probes within Y seconds from a single source. Typically, the length of Y is severely limited, to keep the amount of state manageable. Spice, a tool developed at Silicon Defense, tries to avoid this drawback. [2] Spice maintains records of event likelihood, from which it generates an anomalousness score for each packet. Packets with high scores are stored longer, while state for unsuspicious packets is safely discarded. This heuristic allows Spice to detect stealthy port scans while still being operationally practical. Another approach is employed by Vern Paxon in Bro and emphasizes real time performance and notification, as well as clear separation between mechanism and policy. [9] 
+3 Classification Methodology 
+For the purposes of our analysis, we define a port scan as all anomalous messages sent from a single source during the trace period. We classify port scans into three basic types based on the pattern of target destinations and ports the scan explores. 
+3.1 Vertical Scans 
+The vertical scan is a port scan that targets several destination ports on a single host. Naively executed, this scan is among the easiest to detect because only local (single-host) detection mechanisms are required. 
+3.2 Horizontal Scans 
+A horizontal scan is a port scan that targets the same port on several hosts. Most often the attacker is aware of a particular vulnerability and wishes to find susceptible machines. One would expect to see many horizontal scans for a particular port immediately following the publicizing of a vulnerability on that port. 
+3.3 Block Scans 
+Some attackers combine vertical and horizontal scanning styles into large sweeps of the address-port space. This method can yield a hit-list for future exploitation as described in [10]. 
+3.4 Scan Detection 
+One way to avoid detection is to increase the time between consecutive probes. This technique works since most intrusion detection systems look for X events in a Y-sized time window and can only keep a limited amount of state. [6] We did not have real-time constraints and thus were able to use a time window large enough to detect such stealthy scans. 
+An attacker can also conceal her IP address by using IP decoys, or “zombie” computers under an attacker’s control. Such a scan will appear in our analysis as different scans originating from several IPs. We attempt to quantify this error by combining scans that appear coordinated. If several source IPs are seen targeting the same set of hosts and ports and these source IPs are in the same /24 network, they are classified as decoys. This is 
+Detection and Characterization of Port Scan Attack Page 2 
+ 
+only an approximate solution, which we use for comparison. 
+3.5 Classification Rules 
+To separate port scanning traffic from other traffic, we looked for probes of two or more {IP address, port number} pairs from a given source within 120 seconds. By using this heuristic we detect the majority of all scans since most port scanning tools set the time between the packets to be much less than 120 seconds. We also keep the state of the destinations by maintaining information about 5000 targets that are not part of currently known scans and keep a 60-second window between the consecutive packets. 
+4 Experimental Platform 
+The network trace data was obtained from CAIDA [5] and was gathered on a very lightly utilized /8 network. Two traces were used, each spanning about a week: February 1st-8th, 2001, and February 11th-17th, 2001. More information about the data can be found in [1]. The data was filtered to exclude all legitimate, outgoing and backscatter traffic. The remainder was mostly port scans with a small percentage of misconfigured traffic. 
+The analysis was conducted on the UCSD ActiveWeb machines. We used Snort to simplify scan detection and logging. Snort is a freeware traffic analyzer much like tcpdump, with the addition of preprocessors that allow for packet sorting based on a set of pre-defined rules. We then used a series of Perl scripts to further analyze the results and generate scan statistics. 
+5 Results 
+Using the previously defined rules, we observed 9927 vertical scans, 5623 horizontal scans, and 2008 block scans. 
+5.1 Packet Types and Distribution 
+Most of the packets were sent over TCP, with some UDP traffic. The distribution of packet types and protocols can be seen in Figure 1. As shown, most of the packets are TCP SYN packets, with ACK FIN packets a distant second, followed by UDP and TCP ACK RST. All the remaining types combined are only a minute fraction. 
+Distributions of Packet Types Among Port Scan Packets74%12%8%5%1%0%0%0%******S*******SFUDP***A*R*************A**S******R**Other Packets 
+Figure 1 - Packet Types 
+Another property we wanted to observe was the time distribution of port scan traffic. Figure 2 does not show a correlation between traffic and the time of the day. We can thus assume that port scanning is a constant activity. This might be due to time zone differences between the attack sources. 
+Figure 2 - Port Scan Traffic Rates 
+5.2 Vertical and Horizontal Scans 
+An interesting metric is a scan size, which gives an indication of the amount of information gathered by the attacker. For vertical scans, we define a scan size as the number of distinct ports scanned. For 
+Detection and Characterization of Port Scan Attack Page 3 
+horizontal scans, it is the number of distinct destination IPs. We observed many scans originating from the same /24 networks that exhibited the same behavior. We believed these scans were a coordinated effort. To roughly quantify the number of scans in this category, we grouped the vertical scans by the source IP if the destination IP and the scanned ports were the same and the source IPs were in the same /24 network. Thus, we assume that most of the source IPs were decoys since the scanning patterns of all of them are so similar. Figure 2 shows the distribution of the vertical scans, both before and after the grouping. We can see that there are a handful of large scans, with the size distribution being dominated by small scans. 
+Figure 3 - Complementary Cumulative Distribution Function of the Vertical Scan Sizes 
+We perform the same grouping on the horizontal scans. The distribution of the horizontal scan sizes is also dominated by the small scans. However, in this case the change between the original and the reduced scan sets is hardly noticeable. It is unclear why vertical scans appear to make more widespread use of decoys; we leave this as an open question. 
+The typical block scan we observed examined the same 2 or 3 ports across a large set of machines. In other words, we did not observe block scans that appeared to be comprehensively covering the address-port space. 
+Figure 4 - Complementary Cumulative Distribution Function of Horizontal Scan Sizes 
+
+5.3 Target Ports 
+
+The popularity of target ports was another metric we evaluated. All 216 port numbers were scanned at least once on some host, mostly due to the vertical scans that looked at all the ports on a host. Although some ports were scanned many more times than others, the amount of these scans as a percentage of overall probes is still negligible. Table 1 lists the target ports, the corresponding services and some related statistics. 
+5.4 Geographic Distribution of Scan Sources 
+The port scans are a global phenomena. They originate from a multitude of locations across the world and seem to be correlated only with accessibility of the Internet. To map the location of scan sources, we created a list of unique source IPs and then used CAIDA’s IPGeo tool to map IPs to corresponding latitude/longitude pairs. Figure 5 shows the resulting map. 
+Detection and Characterization of Port Scan Attack Page4
+6 Related and Future Work 
+At the time of this writing, we are unaware of any port scanning characterization research. We serve as pioneers in this exciting field! However, much remains to be done. More advanced heuristics and classification would allow for more accurate identification of port scanning traffic. Our data set contained little or no legitimate traffic from which the port scans had to be separated. Future research could examine more difficult, and more typical, datasets. Port scan traffic could be evaluated as a percentage of overall traffic as well as categorized on the basis of its contribution to network congestion and resource consumption. Another limitation of our dataset is that we only observed port scanning where hosts or addresses on our network were the victims. It is possible, even likely, that an actively used network would see more port scan activity, as attackers would have more specific interest in those systems.
+7 Conclusions 
+The majority of the scans were carried over TCP, with TCP SYNs dominating the traffic. UDP was another protocol that we saw, although it was not very prevalent. Most of the scans were simple vertical or horizontal scans, with vertical scans prevailing by a factor of nearly 2. All the ports were scanned at least once, although even the most frequently scanned ports did not account for a large percentage of the probes. The scan sources originated from a multitude of locations and favored densely populated areas of Europe and North America. Most of the horizontal scans were sequential whereas the vertical scans varied. We observed great diversity in the scan duration.
+
+8 Acknowledgments 
+We would like to express our gratitude to a number of people who helped on this project. We want to thank the people of CAIDA and in particular David Moore for providing the traces, as well as advice and assistance. We would also like to thank David Hutches who provided amazing help with the ActiveWeb machines. We also acknowledge the ActiveWeb project for allowing us to run the scan detection software for several days, and for providing us with unlimited disk quota on their machines, which we put to abundant use. Finally we would like to thank Stefan Savage for making logistical arrangements, giving advice and guiding our investigation.
+
+
+
