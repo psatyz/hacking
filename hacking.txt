@@ -1,0 +1,1594 @@
+WEEK 1
+Who is a Hacker?
+What will you learn in the AFCEH Course?
+The Anatomy of an IP Address 
+The Anatomy of an IP Address Part 2
+Enumerating Remote Systems
+Hiding Your IP Address
+Tracing an IP Address
+Network Address Translation 
+Internal VS External IP Addresses
+Internal VS External IP Addresses DEMO
+MAC Addresses
+MAC Addresses DEMO
+MAC Addresses Spoofing
+MAC Addresses Spoofing DEMO
+How to find the Remote Computer's MAC Address? 
+How to find the Remote Computer's MAC Address? DEMO
+Changing your MAC Address
+Fport
+Fport DEMO
+Proxy Servers
+Proxy Servers Part 2
+Proxy Bouncing
+Proxy Bouncing Part 2
+Tor: Anonymity Online
+HACKING DEMO: tor
+Hacking File Hosting Websites
+Bypassing the Ads & Multiple Links
+HACKING DEMO: Bypassing the Ads & Multiple Links
+Bypassing the Download Wait Countdown
+Bypassing the Download Limit
+Shortened URL Vulnerabilities
+Introduction
+Threats
+Previewing a Shortened URL
+HACKING DEMO: Shortened URL Vulnerabilities
+Network Reconnaissance
+Ping sweeping
+Traceroute
+WHOIS
+Reverse DNS Lookups
+The Hosts File
+The Hosts File Part 2
+Netcat
+Netcat Demo
+NCat
+HACKING DEMO: Ncat
+Port Scanning
+Daemon Banner Grabbing
+Scanline
+Scanline Demo
+Lab Session 1
+
+
+WEEK 2
+ICMP Scanning
+OS Fingerprinting
+Firewall Enumeration
+Zenmap
+Zenmap Demo
+Detection-Screen Cap
+Passive Fingerprinting with P0f
+Passive Fingerprinting with P0f Demo
+Web Server Fingerprinting
+Web Server Fingerprinting Demo
+Avoid OS Detection: Change Default Values
+Avoid OS Detection: Change Default Values Demo
+Packet Generation
+Packet Generation Demo
+Packet Generator: Nping
+HACKING DEMO: Nping
+Conclusion - Information Gathering
+Email Forging
+EMail Spoofing Part 2
+DOS Attacks
+Reflective DDOS Attacks
+Password Cracking Attacks
+Password Cracking Attacks Part 2
+Cracking Saved Passwords in Browsers
+Introduction
+Google Chrome
+Firefox Mozilla
+Internet Explorer
+Tools
+HACKING DEMO: Cracking Saved Passwords in Browsers
+Countermeasures
+Password Managers
+Introduction
+KeePassX
+HACKING DEMO: Using KeePassX
+LastPass
+ClipperZ
+KeepPass.info
+Vulnerabilities
+Intellectual Property Thefts
+Sniffers
+Keyloggers
+Trojans
+EXE Binders
+EXE Binders Part 2
+Social Engineering Attacks
+TCP/IP: A Mammoth Description
+Firewall Tunneling using SSH & Putty
+Introduction
+Steps to Follow
+Unblocking P2P File Sharing tools using SSH & Putty
+Unblocking P2P File Sharing tools Other Techniques
+HACKING DEMO: Various ways to Unblock P2P File Sharing Tools
+Hacking Windows
+Introduction
+Passwords
+The Look and Feel
+Security Checklists
+HTTP Tunneling
+Introduction
+How it Works
+Tools of Trade
+HACKING DEMO: HTTP Tunneling
+Email Hacking
+Tracing Emails
+Email Forging
+The Post Office Protocol (POP)
+Mailbombing
+Cracking Email Accounts
+Securing Email
+Port Forwarding
+Introduction
+How it Works
+Configuring the Router
+PortForward.com
+DynDNS
+Source Port Forwarding Using fpipe
+Port Forwarding VS Port Triggering
+Lab Session 2
+
+
+WEEK 3
+Identity Thefts
+Input Validation Attacks
+SQL Injection
+IP Spoofing
+Cross Site Scripting Attacks
+Misuse of Hidden HTML tags
+Canonicalization Attacks
+HTTP Response Splitting
+Web Hacking
+Buffer Overflows
+Passive Sniffing Attacks
+HACKING DEMO: Passive Sniffing Attacks
+What is a Switch?
+What is a Hub?
+Router VS Hub VS Switch
+Introduction
+Countermeasures
+Active Sniffing Attacks
+ARP Poisoning Attack
+HACKING DEMO: ARP Poisoning Attacks
+MAC Flooding Attack
+HACKING DEMO: MAC Flooding Attack
+MAC Duplication Attack
+Playing with ARP Tables
+Countermeasures
+HACKING DEMO: Countermeasures
+Social Networking Websites Security
+Windows 7 & Windows Vista Offline Password Cracking
+Windows 7 & Windows Vista Offline Password Cracking Demo
+Windows 7 & Windows Vista Bypassing Login Prompt
+Windows 7 & Windows Vista Bypassing Login Prompt Demo
+Windows 7 & Windows Vista Online Password Cracking
+Windows 7 & Windows Vista Online Password Cracking
+CAPTCHA
+Introduction
+A Good CAPTCHA System
+reCAPTCHA
+Mail Hide from reCAPTCHA
+HACKING DEMO: reCAPTCHA and Mail Hide
+Cracking CAPTCHA
+Cracking MegaUpload.com's Captcha
+HACKING DEMO: Cracking MegaUpload.com's Captcha
+Future Trends
+GreaseMonkey Scripts
+My Favorite Facebook Scripts
+My Favorite Youtube Scripts
+My Favortie Twitter Scripts
+Tab Napping
+Introduction
+Threats
+Steps Involved
+HACKING DEMO: Tab Napping
+DNS Attacks
+Introduction
+Tools
+HACKING DEMO: DNS Tools
+DNS Poisoning Sniffing ID Attack
+DNS Cache Poisoning Birthday Paradox
+DNS Cache Poisoning Birthday Attack
+Modern Day DNS Attacks: Search Engines
+Modern Day DNS Attacks: Fat Fingers Attack
+Modern Day DNS Attacks: Domain Hijacking
+HACKING DEMO: Modern Day DNS Attacks
+Modification on User Computers
+HACKING DEMO: Modification on User Computers
+Accessing Blocked Websites using Public DNS Systems
+HACKING DEMO: Accessing Blocked Websites using Public DNS Systems
+Countermeasures
+HACKING DEMO: FCrDNS
+Lab Session 3
+
+
+WEEK 4
+Encryption: Protecting Your Files
+Meet in the Middle Attack
+Introduction
+The Attack
+Shell Accounts
+Shell Accounts Part 2
+USB Hacking: Linux on the Move
+Undeleting Deleted Data
+Undeleting Deleted Data Part 2
+Permanently Removing Data: Eraser
+Tripwire
+Sysinternals
+Task Kill Attack
+Shoulder Surfing
+Dumpster Diving
+Road Sign Hacking
+Steganography
+Steganography Part 2
+Watermarking 
+Steganalysis
+Wireless Hacking
+Introduction to Wireless Networks
+Setting up a Wireless Network
+Wireless Security
+Poisoned Hotspots
+Important Terminology
+War Driving
+War Driving: How does it work?
+War Driving Tools
+HACKING DEMO: War Driving Tools
+War Driving & GPS Mapping
+Finding WiFi Hotspots on the Internet
+HACKING DEMO: Finding WiFi Hotspots on the Internet
+Locating WiFi Hotpots on your iPhone/iTouch/iPad
+Re-Association Requests
+De-Authentication Attacks
+Countermeasures against War Driving
+Wireless Data Sniffers
+HACKING DEMO: Wireless Data Sniffers
+How are Wireless Connections Established?
+MAC Filtering Attacks
+DOS Attacks against Wireless Networks
+WEP Security Loopholes
+Cracking WEP, WPA, WPA2: Tools
+ARP Request Relay Attack
+Fake Authentication Attack
+Cracking WEP Keys
+Caffe Latte Attack
+Improvements in WPA over WEP
+Cracking WPA & WPA2
+Recovering WEP & WPA Keys from Local Machine
+HACKING DEMO: Recovering WEP & WPA Keys from Local Machine
+Computer Forensics
+Honeypots
+Batch File Programming
+Viruses Torn Apart
+Penetration Testing & Vulnerability Assessment
+Penetration Testing & Vulnerability Assessment Part 2
+Investigating Cyber Crimes
+Intrusion Detection Systems 
+Intrusion Prevention Systems
+Bluetooth Security: Hacking Mobile Phones
+Software Hacking
+Protecting CDs and DVDs
+Backtrack
+Lab Session 4
+ 
+
+			
+		
+		
+		
+		
+		
+
+	
+		 
+http://www.google.co.in/search?client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&channel=s&hl=en-IN&source=hp&q=videos+on+hacking&oq=videos+on+hacking&gs_l=firefox-hp.3.0.0j0i22i30l6j0i22i10i30.6204.14171.0.21386.17.16.0.1.1.0.83.1103.16.16.0...0.0...1ac.1.oCInWKa2ciA
+What is a Hacker?
+Brian Harvey
+University of California, Berkeley 
+In one sense it's silly to argue about the ``true'' meaning of a word. A word means whatever people use it to mean. I am not the Academie Française; I can't force Newsweek to use the word ``hacker'' according to my official definition. 
+Still, understanding the etymological history of the word ``hacker'' may help in understanding the current social situation. 
+The concept of hacking entered the computer culture at the Massachusetts Institute of Technology in the 1960s. Popular opinion at MIT posited that there are two kinds of students, tools and hackers. A ``tool'' is someone who attends class regularly, is always to be found in the library when no class is meeting, and gets straight As. A ``hacker'' is the opposite: someone who never goes to class, who in fact sleeps all day, and who spends the night pursuing recreational activities rather than studying. There was thought to be no middle ground. 
+What does this have to do with computers? Originally, nothing. But there are standards for success as a hacker, just as grades form a standard for success as a tool. The true hacker can't just sit around all night; he must pursue some hobby with dedication and flair. It can be telephones, or railroads (model, real, or both), or science fiction fandom, or ham radio, or broadcast radio. It can be more than one of these. Or it can be computers. [In 1986, the word ``hacker'' is generally used among MIT students to refer not to computer hackers but to building hackers, people who explore roofs and tunnels where they're not supposed to be.] 
+A ``computer hacker,'' then, is someone who lives and breathes computers, who knows all about computers, who can get a computer to do anything. Equally important, though, is the hacker's attitude. Computer programming must be a hobby, something done for fun, not out of a sense of duty or for the money. (It's okay to make money, but that can't be the reason for hacking.) 
+A hacker is an aesthete. 
+There are specialties within computer hacking. An algorithm hacker knows all about the best algorithm for any problem. A system hacker knows about designing and maintaining operating systems. And a ``password hacker'' knows how to find out someone else's password. That's what Newsweek should be calling them. 
+Someone who sets out to crack the security of a system for financial gain is not a hacker at all. It's not that a hacker can't be a thief, but a hacker can't be a professional thief. A hacker must be fundamentally an amateur, even though hackers can get paid for their expertise. A password hacker whose primary interest is in learning how the system works doesn't therefore necessarily refrain from stealing information or services, but someone whose primary interest is in stealing isn't a hacker. It's a matter of emphasis. 
+Ethics and Aesthetics
+Throughout most of the history of the human race, right and wrong were relatively easy concepts. Each person was born into a particular social role, in a particular society, and what to do in any situation was part of the traditional meaning of the role. This social destiny was backed up by the authority of church or state. 
+This simple view of ethics was destroyed about 200 years ago, most notably by Immanuel Kant (1724-1804). Kant is in many ways the inventor of the 20th Century. He rejected the ethical force of tradition, and created the modern idea of autonomy. Along with this radical idea, he introduced the centrality of rational thought as both the glory and the obligation of human beings. There is a paradox in Kant: Each person makes free, autonomous choices, unfettered by outside authority, and yet each person is compelled by the demands of rationality to accept Kant's ethical principle, the Categorical Imperative. This principle is based on the idea that what is ethical for an individual must be generalizable to everyone. 
+Modern cognitive psychology is based on Kant's ideas. Central to the functioning of the mind, most people now believe, is information processing and rational argument. Even emotions, for many psychologists, are a kind of theorem based on reasoning from data. Kohlberg's theory of moral development interprets moral weakness as cognitive weakness, the inability to understand sophisticated moral reasoning, rather than as a failure of will. Disputed questions of ethics, like abortion, are debated as if they were questions of fact, subject to rational proof. 
+Since Kant, many philosophers have refined his work, and many others have disagreed with it. For our purpose, understanding what a hacker is, we must consider one of the latter, Sören Kierkegaard (1813-1855). A Christian who hated the established churches, Kierkegaard accepted Kant's radical idea of personal autonomy. But he rejected Kant's conclusion that a rational person is necessarily compelled to follow ethical principles. In the book Either-Or he presents a dialogue between two people. One of them accepts Kant's ethical point of view. The other takes an aesthetic point of view: what's important in life is immediate experience. 
+The choice between the ethical and the aesthetic is not the choice between good and evil, it is the choice whether or not to choose in terms of good and evil. At the heart of the aesthetic way of life, as Kierkegaard characterises it, is the attempt to lose the self in the immediacy of present experience. The paradigm of aesthetic expression is the romantic lover who is immersed in his own passion. By contrast the paradigm of the ethical is marriage, a state of commitment and obligation through time, in which the present is bound by the past and to the future. Each of the two ways of life is informed by different concepts, incompatible attitudes, rival premises. [MacIntyre, p. 39] 
+Kierkegaard's point is that no rational argument can convince us to follow the ethical path. That decision is a radically free choice. He is not, himself, neutral about it; he wants us to choose the ethical. But he wants us to understand that we do have a real choice to make. The basis of his own choice, of course, was Christian faith. That's why he sees a need for religious conviction even in the post-Kantian world. But the ethical choice can also be based on a secular humanist faith. 
+A lesson on the history of philosophy may seem out of place in a position paper by a computer scientist about a pragmatic problem. But Kierkegaard, who lived a century before the electronic computer, gave us the most profound understanding of what a hacker is. A hacker is an aesthete. 
+The life of a true hacker is episodic, rather than planned. Hackers create ``hacks.'' A hack can be anything from a practical joke to a brilliant new computer program. (VisiCalc was a great hack. Its imitators are not hacks.) But whatever it is, a good hack must be aesthetically perfect. If it's a joke, it must be a complete one. If you decide to turn someone's dorm room upside-down, it's not enough to epoxy the furniture to the ceiling. You must also epoxy the pieces of paper to the desk. 
+Steven Levy, in the book Hackers, talks at length about what he calls the ``hacker ethic.'' This phrase is very misleading. What he has discovered is the Hacker Aesthetic, the standards for art criticism of hacks. For example, when Richard Stallman says that information should be given out freely, his opinion is not based on a notion of property as theft, which (right or wrong) would be an ethical position. His argument is that keeping information secret is inefficient; it leads to unaesthetic duplication of effort. 
+The original hackers at MIT-AI were mostly undergraduates, in their late teens or early twenties. The aesthetic viewpoint is quite appropriate to people of that age. An epic tale of passionate love between 20-year-olds can be very moving. A tale of passionate love between 40-year-olds is more likely to be comic. To embrace the aesthetic life is not to embrace evil; hackers need not be enemies of society. They are young and immature, and should be protected for their own sake as well as ours. 
+In practical terms, the problem of providing moral education to hackers is the same as the problem of moral education in general. Real people are not wholly ethical or wholly aesthetic; they shift from one viewpoint to another. (They may not recognize the shifts. That's why Levy says ``ethic'' when talking about an aesthetic.) Some tasks in moral education are to raise the self-awareness of the young, to encourage their developing ethical viewpoint, and to point out gently and lovingly the situations in which their aesthetic impulses work against their ethical standards. 
+IP Address:
+Every device connected to the public Internet is assigned a unique number known as an Internet Protocol (IP) address. IP addresses consist of four numbers separated by periods (also called a 'dotted-quad') and look something like 127.0.0.1.
+Since these numbers are usually assigned to internet service providers within region-based blocks, an IP address can often be used to identify the region or country from which a computer is connecting to the Internet. An IP address can sometimes be used to show the user's general location.
+Because the numbers may be tedious to deal with, an IP address may also be assigned to a Host name, which is sometimes easier to remember. Hostnames may be looked up to find IP addresses, and vice-versa. At one time ISPs issued one IP address to each user. These are called static IP addresses. Because there is a limited number of IP addresses and with increased usage of the internet ISPs now issue IP addresses in a dynamic fashion out of a pool of IP addresses (Using DHCP). These are referred to as dynamic IP addresses. This also limits the ability of the user to host websites, mail servers, ftp servers, etc. In addition to users connecting to the internet, with virtual hosting, a single machine can act like multiple machines (with multiple domain names and IP addresses).
+How do I hide my IP address?
+The most common method to hide your IP address is to use a proxy server in one form or another. A proxy server is a computer that offers a computer network service to allow clients to make indirect network connections to other network services. A client connects to the proxy server and then requests a connection, file, or other resource available on a different server. The proxy provides the resource either by connecting to the specified server or by serving it from a cache. In some cases, the proxy may alter the client's request or the server's response for various purposes.
+There are several implementations of proxy servers that you can use to hide your IP address (in an attempt to remain anonymous on the internet):
+Port Scanning and System Enumeration
+Port scanning is the process of connecting to TCP and UDP ports for the purpose of finding what services and applications are open on the target device. Once open, applications or services can be discovered. At this point, further information is typically gathered to determine how best to target any vulnerabilities and weaknesses in the system.
+ 
+ 
+Port Scanning Steps
+Port scanning is one of the key steps of ethical hacking. Before a system can be attacked the hacker must determine what systems are up, what applications are running, and what what versions the applications are.
+1. Determining If The System Is Alive
+•	Network Ping Sweeps
+2. Port Scanning
+•	Nmap - As you might guess, the name “nmap” implies that the program was ostensibly developed as a network mapping tool. Well, as you can imagine, such a capability is attractive to the folks that attack networks, not just network and system administrators and the network support staff. Of all the tools available it is nmap that people just seem to keep coming back to. The familiar command line interface, the availability of documentation, and the generally competent way in which the tool has been developed and maintained, are all attractive to us. Nmap performs a variety of network tricks. To learn more check out the NMAP tutorial.
+•	Nmap - Interesting options
+o	-f fragments packets
+o	-D Launches decoy scans for concealment
+o	-I IDENT Scan – finds owners of processes (on Unix systems)
+o	-b FTP Bounce
+•	Port Scan Types
+o	TCP Connect scan
+o	TCP SYN scan
+o	TCP FIN scan
+o	TCP Xmas Tree scan (FIN, URG, and PUSH)
+o	TCP Null scan
+o	TCP ACK scan
+o	UDP scan
+ 
+ 
+3. Banner-Grabbing
+Many services announce what they are in response to requests. Banner grabbers just collect those banners the easiest way to banner grab:
+telnet <ipaddress> 80
+4. Operating System Fingerprinting
+•	Active Stack Fingerprinting
+o	Nmap
+o	Xprobe2
+•	Passive fingerprinting
+o	siphon
+o	p0f
+Enumeration
+The process of enumeration, finding find what services are running, versions, open shares, account details, or possible points of entry. One such target is SMB. While SMB makes it possible for users to share files and folders, SMB offers access on Windows computers via the IPC$ share. This share, the IPC$, is used to support named pipes that programs used for interprocess (or process-to-process) communications. Because named pipes can be redirected over the network to connect local and remote systems, they also enable remote administration.
+1. Attacking Null Sessions
+The Windows Server Message Block (SMB) protocol hands out a wealth of information freely. Null Sessions are turned off by default in Win XP, Server 2003, Vista, and Windows 7 but open in Win 2000 and NT.
+Null Session Tools
+•	Dumpsec
+•	Winfo
+•	Sid2User
+•	NBTenun 3.3
+2. Enumerating Windows Active Directory via LDAP, TCP/UDP 389 and 3268. Active Directory contains user accounts and additional information about accounts on Windows DC's. If the domain is made compatible with earlier versions of Windows, such as Win NT Server, any domain member can enumerate Active Directory
+3. Targeting Border Gateway Protocol (BGP). The de facto routing protocol on the Internet. BGP is used by routers to help them guide packets to their destinations. It can be used to find all the networks associated with a particular corporation
+Defense with Port Knocking
+Port knocking is a rather esoteric method of preventing session creation with a particular port. Port knocking is not currently implemented by default in any stack, but we may soon see patches to permit the use of knocking protocols. The basis of port knocking is the digital analog of the secret handshake. Through the use of timing, data sent with SYN packets, number of SYN packets sent, sequence of ports hit, and other options, a client authorizes itself to access a port. While useful for obscuring the existence of a port, port knocking is simply another layer of authentication. Links can still be saturated through DoS attacks, RST attacks can still kill connections, and sessions can still be hijacked and sniffed. A paranoid system administrator may care to use a port knocking daemon to add an extra layer of security to connections, but securing the connection through a PKI certificate exchange is much more likely to yield tangible security benefits.
+Scanning and Enumeration Links
+Some links to learn more about scanning and enumeration include:
+Port scans legal, judge says (12/18/2000)
+Port Scanning and its Legal Implications (2004)
+Nmap Tutorial
+A Simple Guide to Nmap Usage
+YouTube - Trinity Nmap Hack - Matrix Reloaded
+Unicornscan
+NetScanTools
+Nessus Vulnerability Scanner
+Nessus Technical Guide
+Very simple Nessus installation [Archive] - Ubuntu Forums
+How to install the vulnerability scanner Nessus | Ubuntu Linux
+fping - a program to ping hosts in parallel
+Hping - Wikipedia, the free encyclopedia
+Tutorial: Hping2 Basics
+Smurf attack - Wikipedia, the free encyclopedia
+Preventing Smurf Attacks
+Advanced Bash-Scripting Guide
+NetBios Howto
+NetBIOS NULL Sessions: The Good, The Bad, and The Ugly
+Null session attacks: Who's still vulnerable?
+NULL sessions restrictions of server and workstation RPC operations
+Null session in Windows XP
+Listing usernames via a null session on Windows XP
+Download Winfo -- NetBIOS Null Session Enumeration Tool
+NetBIOS Suffixes (16th Character of the NetBIOS Name)
+NetScanTools.com
+SystemTools.com - DumpSec and Hyena
+Description of the Windows File Protection feature
+
+Website-Based Proxy Servers
+A Website-based proxy server is a website that provides a form for you to enter the URL of a website that you wish to anonymously visit. When you submit the form the website proxy server makes a request for the page that you want to visit. The machine usually does not identify itself as a proxy server and does not pass along your IP address in the request for the page. The features of these sites vary (ad blocking, javascript blocking, etc) as does their price. Some are free and some charge. Examples of website proxy services are:
+•	Proxify.com <<< NEW VERSION!
+Browser Configured Proxy Servers
+There are also stand alone proxy servers that allow for you to configure your browser to route your browser traffic through that machine, which then makes a request for a page on your behalf, and then sends you the results. These are usually used at no cost to the user. Since they are accessible to the public these are often quite slow. Please see instructions for using a proxy server.
+There are a variety of types of these proxy servers:
+•	Transparent Proxy
+This type of proxy server identifies itself as a proxy server and also makes the original IP address available through the http headers. These are generally used for their ability to cache websites and do not effectively provide any anonymity to those who use them. However, the use of a transparent proxy will get you around simple IP bans. They are transparent in the terms that your IP address is exposed, not transparent in the terms that you do not know that you are using it (your system is not specifically configured to use it.) This type of proxy server does not hide your IP address.
+•	Anonymous Proxy
+This type of proxy server identifies itself as a proxy server, but does not make the original IP address available. This type of proxy server is detectable, but provides reasonable anonymity for most users. This type of proxy server will hide your IP address.
+•	Distorting Proxy
+This type of proxy server identifies itself as a proxy server, but make an incorrect original IP address available through the http headers. This type of proxy server will hide your IP address.
+•	High Anonymity Proxy
+This type of proxy server does not identify itself as a proxy server and does not make available the original IP address. This type of proxy server will hide your IP address.
+Installed Software Proxy Servers
+There are a variety of companies and software packages available at either a onetime cost or at an annual subscription. These are usually faster and more reliable than the above proxy servers. Some of these services would include:
+•	Hide My IP
+•	Proxify.com <<< NEW VERSION!
+•	Anonymizer Universal
+VPN Services
+A virtual private network (VPN) protects your data and identity over public networks, like the Internet and wireless hotspots. Various protocols are used to create an encrypted tunnel that transports data securely. While a firewall may protect the data on your computer, a VPN will protect your data on the Internet. The goal of a VPN is to implement the same level of security provided by private networks at substantially lower costs. VPN services provide different gateway cities where the IP address assigned to your computer is located. This allows users to access websites only available to users from a certain country. This application is particularly important for travelers who need to access websites from their home country and for people living in regions rife with censorship, like China and Iran.
+•	VyprVPN
+•	StrongVPN
+•	Hide My Ass
+•	Hotspot Shield
+Ways You Can Hide Your Public I
+Question: Ways You Can Hide Your Public IP Address
+When connecting to the Internet, your home computer (or network router) is assigned a public IP address. As you visit Web sites or other Internet servers, that public IP address is transmitted and recorded in log files kept on those servers. Access logs leave behind a trail of your Internet activity. If it were possible to somehow hide my public IP address, its Internet activity would become much more difficult to trace.
+Answer: Unfortunately, it is not technically possible to always hide the public IP address of a home network. An IP address enables devices to locate and communicate with each other on the Internet. Completely hiding the IP address of a device would render it invisible but also unusable online. 
+On the other hand, it is possible to hide public IP addressees from most Internet servers in most situations. This method involves an Internet service called an anonymous proxy server.
+Using an Anonymous Proxy Server
+An anonymous proxy server ("proxy") is a special type of server that acts as an intermediary between a home network and the rest of the Internet. An anonymous proxy server makes requests for Internet information on your behalf, using its own IP address instead of yours. Your computer only accesses Web sites indirectly, through the proxy server. This way, Web sites will see the proxy's IP address, not your home IP address. 
+Using an anonymous proxy server requires a simple configuration of the Web browser (or other Internet client software that supports proxies). Proxies are identified by a combination of URL and TCP port number.
+Numerous free anonymous proxy servers exist on the Internet, open for anyone to use. These servers may have bandwidth traffic limits, may suffer from reliability or speed problems, or might permanently disappear from the Internet without notice. Such servers are most useful for temporary or experimental purposes.
+Anonymous proxy services that charge fees in return for better quality of service also exist. These services are designed for regular use by households.
+Related Tools for Hiding My IP Address
+Several related software tools (both free and paid versions) support anonymous proxies. The Firefox extension called switchproxy, for example, supports defining a pool of proxy servers in the Web browser and automatically switching between them at regular time intervals. In general, these tools help you both find proxies and also simplify the process of configuring and using them. 
+The ability to hide an IP address increases your privacy on the Internet. Other approaches to improving Internet privacy also exist and complement each other. Managing Web browser cookies, using encryption when sending personal information, running a firewall and other techniques all contribute toward a greater feeling of safety and security when going online.
+MAC address:
+The MAC address is a unique value associated with a network adapter. MAC addresses are also known as hardware addresses or physical addresses. They uniquely identify an adapter on a LAN. 
+MAC addresses are 12-digit hexadecimal numbers (48 bits in length). By convention, MAC addresses are usually written in one of the following two formats:
+MM:MM:MM:SS:SS:SS
+
+MM-MM-MM-SS-SS-SS
+The first half of a MAC address contains the ID number of the adapter manufacturer. These IDs are regulated by an Internet standards body (see sidebar). The second half of a MAC address represents the serial number assigned to the adapter by the manufacturer. In the example, 
+00:A0:C9:14:C8:29
+The prefix 
+00A0C9
+indicates the manufacturer is Intel Corporation. 
+Why MAC Addresses?
+Recall that TCP/IP and other mainstream networking architectures generally adopt the OSI model. In this model, network functionality is subdivided into layers. MAC addresses function at the data link layer (layer 2 in the OSI model). They allow computers to uniquely identify themselves on a network at this relatively low level. 
+MAC vs. IP Addressing
+Whereas MAC addressing works at the data link layer, IP addressing functions at the network layer (layer 3). It's a slight oversimplification, but one can think of IP addressing as supporting the software implementation and MAC addresses as supporting the hardware implementation of the network stack. The MAC address generally remains fixed and follows the network device, but the IP address changes as the network device moves from one network to another. 
+IP networks maintain a mapping between the IP address of a device and its MAC address. This mapping is known as the ARP cache or ARP table. ARP, the Address Resolution Protocol, supports the logic for obtaining this mapping and keeping the cache up to date.
+DHCP also usually relies on MAC addresses to manage the unique assignment of IP addresses to devices. 
+Obtaining the MAC / ethernet address of a machine
+The MAC address is a unique hardware address. If you have network problems, we'll probably need to know your MAC address, so that we can search for activity. MAC addresses are 12 characters, of digits 0-9 and letters A-F. They are normally presented as 6 groups of 2, separated by colons or hyphens. For example:
+•	00:11:22:33:44:55
+•	00-11-22-33-44-55
+Occasionally you may see different presentations, such as:
+•	0011.2233.4455
+•	001122334455
+Many modern machines have multiple network adapters, and it's important to select the right one - that is, the one you're reporting a problem for. For example, a machine might have some or all of:
+•	wired
+•	wireless
+•	bluetooth
+•	"virtual" network cards, such as VPN etc.
+Follow the instructions below to find the MAC address for your machine.
+Windows (Vista, 7)
+•	Open the "Start" menu
+•	Type "network and sharing", and hit return
+•	Select "change adapter settings" at the top-left
+•	Right-click the adapter you want, and select Status
+•	Click the Details... button
+•	The MAC address is listed as "Physical Address"
+•	You can copy this information to the clipboard by pressing Ctrl+C and then paste it into an email
+Windows XP
+If you have a "My Network Places" icon on the desktop:
+•	Right-click "My Network Places" icon and select "Properties" from the menu
+•	Right-click the adapter you want, and select Status
+•	Select the Support tab, and click the Details... button
+•	The MAC address is listed as "Physical Address"
+•	You can copy this information to the clipboard by pressing Ctrl+C and then paste it into an email
+If you don't have "My Network Places", use the instructions below
+Windows (2000, XP, Vista, 7)
+•	Open the "Start" menu
+•	Select the "Run..." item
+•	Type "cmd" in the box and click "OK"
+•	A command prompt will open up
+•	Type "ipconfig /all" at the prompt and hit return
+•	A list of information will be printed - you may need to scroll back up, or alternatively, try running "ipconfig /all | more" instead. Note down the MAC address of the correct network adaptor (there may be more than one - see note below)
+Windows legacy systems (95/98/ME)
+•	Open the "Start" menu
+•	Select the "Run..." item
+•	Type "winipcfg" in the box and click "OK"
+•	A program will start that lists the network adaptors attached to your machine. Select the correct adaptor from the dropdown list and note down the MAC address
+MacOS X (Tiger)
+•	Go to the Apple Menu and select System Preferences
+•	Click Network
+•	From the Show menu, select the adapter you want
+•	For wireless - select Airport. The MAC address will be listed as the "Airport ID"
+•	For wired - select Built in Ethernet. The MAC address will listed as the "Ethernet ID."
+MacOS X (Snow Leopard)
+•	Go to the Apple Menu and select System Preferences
+•	Click Network
+•	From the Show menu, select the adapter you want
+•	For wireless - select Airport
+•	For wired - select Ethernet
+•	Click on the Advanced button
+•	Go to the Ethernet tab
+•	The MAC address will be show as the "Ethernet ID"
+MacOS (older versions)
+Go Apple Menu => Control Panels => Appletalk => Info.
+Alternatively, Apple Menu => Apple System Profiler, under Network Overview/Appletalk/Hardware Address
+iPhone
+•	Select Settings, General, About
+•	MAC addresses are listed at the bottom of the page
+Nokia phones (with wifi)
+Dial *#MAC0WLAN# or *#62209526# - your MAC address will be shown
+•	
+Blackberry (OS 6 and above)
+•	From the home screen, select Options
+•	Select Device Options, then Device and status Information
+•	Under Wi-Fi Information, look for WLAN MAC.
+Blackberry (earlier versions)
+•	From home screen, press menu
+•	Choose "Options", "Status"
+•	Select "WLAN MAC"
+Android
+•	From the Home screen, press Menu
+•	Tap Settings
+•	Slide the screen upward, and then tap About phone
+•	Tap Status
+•	Tap and slide up to view the Wi-Fi MAC address
+Unix/Linux
+Most versions of Unix can find the MAC address by typing "ifconfig -a" at a root prompt. The adaptor may be named eth0 (linux) le0/hme0 (Solaris) or some other similar mnemonic.
+Printers
+Most printers with embedded network hardware will print the MAC address as part of the self-test page. Often, the MAC address can be obtained through the front-panel configuration if the printer has one. Alternatively, the MAC address is usually either the last 12 digits of the serial number (of the network card, if it is a separate item) or is marked somewhere (usually hard to find).
+Try looking for a string of the form "00-11-22-33-44-55" or "00:aa:bb:cc:dd:ee".
+MAC spoofing
+MAC spoofing is a technique for changing a factory-assigned Media Access Control (MAC) address of a network interface on a networked device. The MAC address is hard-coded on a network interface controller (NIC) and cannot be changed. However, there are tools such as SMAC which can make an operating system believe that the NIC has the MAC address of a user's choosing. The process of masking a MAC address is known as MAC spoofing. Essentially, MAC spoofing entails changing a computer's identity, for good or for bad reasons, and it is relatively easy[1]..
+Contents
+ [hide] 
+•	1 Motivation 
+o	1.1 New Hardware for Existing Internet Service Provider (ISP)
+o	1.2 Fulfill Software Requirement
+o	1.3 Identity masking
+•	2 Effect
+•	3 See also
+•	4 References
+
+[edit] Motivation
+The changing of the assigned MAC address may allow the bypassing of access control lists on servers or routers, either hiding a computer on a network or allowing it to impersonate another network device. MAC spoofing is done for legitimate and illicit purposes alike.
+[edit] New Hardware for Existing Internet Service Provider (ISP)
+Most of the time, an ISP registers the client's MAC address for service and billing services.[2] Since MAC addresses are unique and hard-coded on network interface controller (NIC) cards,[3] when the client wants to connect a new gadget or change his/her existing gadget, the ISP will detect different MAC addresses and the ISP might not grant Internet access to those new devices. This can be circumvented easily by MAC spoofing. The client only needs to spoof the new gadget's MAC address to the MAC address that was registered by the ISP.[4] In this case, the client spoofs his or her MAC address to gain Internet access from multiple devices. While this seems like a legitimate case, MAC spoofing new gadgets can be considered illegal if the ISP's user-agreement prevents the user from connecting more than one device to their service. Moreover, the client is not the only person who can spoof his or her MAC address to gain access to the ISP. Hackers can gain unauthorized access to the ISP via the same technique. This allows hackers to gain access to unauthorized services, and the hacker will be hard to identify because the hacker uses the client's identity. This action is considered an illegitimate use of MAC spoofing and illegal as well. However, it is very hard to track hackers utilizing MAC spoofing.[5]
+[edit] Fulfill Software Requirement
+Some software can only be installed and run on systems with pre-defined MAC addresses as stated in the software end-user license agreement, and users have to comply with this requirement in order to gain access to the software. If the user has to install different hardware due to malfunction of the original device or if there is a problem with the user's NIC card, then the software will not recognize the new hardware. However, this problem can be solved using MAC spoofing. The user just has to spoof the new MAC address as to mimic the MAC address that was registered by the software.[6] This activity is very hard to define as either legitimate or illegitimate reason for MAC spoofing. Legal issues might arise if the user grants access to the software on multiple devices simultaneously. At the same time, the user can obtain access to software for which he or she has not secured a license. Contacting the software vendor might be the safest route to take if there is a hardware problem preventing access to the software. Software may also perform MAC filtering because the software does not want unauthorized users to gain access to certain networks to which the software grants access. In such cases MAC spoofing can be considered a serious illegal activity and can be legally punished.[7]
+[edit] Identity masking
+If a user chooses to spoof his or her MAC address in order to protect the user's privacy,[8] this is called identity masking. One might wish to do this because on a Wi-Fi network connection MAC address are not encrypted. Even the secure IEEE 802.11i-2004 encryption method does not prevent Wi-Fi networks from sending out MAC addresses.[9] Hence, in order to avoid being tracked, the user might choose to spoof the device's MAC address. However, hackers use the same technique to maneuver around network permissions without revealing their identity. Some networks use MAC filtering in order to prevent unwanted access. Hackers can use MAC spoofing to get access to a particular network and do some damage. Hackers' MAC spoofing pushes the responsibility for any illegal activity onto authentic users. As a result, the real offender may go undetected by law enforcement.[10] This is a serious downfall of MAC spoofing.
+[edit] Effect
+Unlike IP address spoofing, where senders spoof their IP address in order to cause the receiver to send the response elsewhere, in MAC address spoofing the response is usually received by the spoofing party (special 'secure' switch configurations can prevent the reply from arriving, or the spoofed frame being transmitted at all). However, MAC address spoofing is limited to the local broadcast domain.
+[edit] See also
+•	MAC address
+•	Promiscuous mode
+        IP spoofing
+This article gives several methods to spoof a Media Access Control (MAC) address. 
+Note: In the examples below is assumed the ethernet device is eth0. Use ip link to check your actual device name, and adjust the examples as necessary
+Contents
+ [hide] 
+•	1 Manually 
+o	1.1 Method 1: iproute2
+o	1.2 Method 2: macchanger
+•	2 Automatically 
+o	2.1 netcfg
+o	2.2 Systemd Unit
+•	3 See also
+
+Manually 
+There are two methods for spoofing a MAC address using either iproute2 (installed by default) or macchanger (available on the Official Repositories). 
+Both of them are outlined below. 
+Method 1: iproute2 
+First, you can check your current MAC address with the command: 
+# ip link show eth0
+The section that interests us at the moment is the one that has "link/ether" followed by a 6-byte number. It will probably look something like this: 
+link/ether 00:1d:98:5a:d1:3a
+The first step to spoofing the MAC address is to bring the network interface down. You must be logged in as root to do this. It can be accomplished with the command: 
+# ip link set dev eth0 down
+Next, we actually spoof our MAC. Any hexadecimal value will do, but some networks may be configured to refuse to assign IP addresses to a client whose MAC does not match up with a vendor. Therefore, unless you control the network(s) you are connecting to, it is a good idea to test this out with a known good MAC rather than randomizing it right away. 
+To change the MAC, we need to run the command: 
+# ip link set dev eth0 address XX:XX:XX:XX:XX:XX
+Where any 6-byte value will suffice for 'XX:XX:XX:XX:XX:XX'. 
+The final step is to bring the network interface back up. This can be accomplished by running the command: 
+# ip link set dev eth0 up
+If you want to verify that your MAC has been spoofed, simply run ip link show eth0 again and check the value for 'link/ether'. If it worked, 'link/ether' should be whatever address you decided to change it to. 
+Method 2: macchanger 
+Another method uses macchanger (a.k.a., the GNU MAC Changer). It provides a variety of features such as changing the address to match a certain vendor or completely randomizing it. 
+Install the package macchanger from the Official Repositories. 
+After this, the MAC can be spoofed with a random address. The syntax is macchanger -r <device>. 
+Here is an example command for spoofing the MAC address of a device named eth0. 
+# macchanger -r eth0
+To randomize all of the address except for the vendor bytes (that is, so that if the MAC address was checked it would still register as being from the same vendor), you would run the command: 
+# macchanger -e eth0
+To change the MAC address to a specific value, you would run: 
+# macchanger --mac=XX:XX:XX:XX:XX:XX eth0
+Where XX:XX:XX:XX:XX:XX is the MAC you wish to change to. 
+Finally, to return the MAC address to its original, permanent hardware value: 
+# macchanger -p eth0
+Note: A device cannot be in use (connected in any way or with its interface up) while the MAC address is being changed.
+Automatically 
+netcfg 
+Install the package macchanger from the Official Repositories. Read the #Method 2: macchanger method for more information. 
+Put the following line in your netcfg profile to have it spoof your MAC address when it's started: 
+PRE_UP='macchanger -e wlan0'
+You may have to replace wlan0 with your interface name. 
+Systemd Unit 
+/etc/systemd/system/macspoof@.service
+[Unit]
+Description=MAC address change %I
+Before=dhcpcd@%i.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/ip link set dev %i address 36:aa:88:c8:75:3a
+ExecStart=/usr/sbin/ip link set dev %i up
+
+[Install]
+WantedBy=network.target
+You may have to edit this file if you do not use dhcpcd. Note: This works without netcfg. If you are using netcfg, see above. 
+Proxy server
+In computer networks, a proxy server is a server (a computer system or an application) that acts as an intermediary for requests from clients seeking resources from other servers. A client connects to the proxy server, requesting some service, such as a file, connection, web page, or other resource available from a different server and the proxy server evaluates the request as a way to simplify and control its complexity. Today, most proxies are web proxies, facilitating access to content on the World Wide Web.
+Contents
+ [hide] 
+•	1 Uses
+•	2 Types of proxy 
+o	2.1 Forward proxies
+o	2.2 Open proxies
+o	2.3 Reverse proxies
+o	2.4 Performance Enhancing Proxies
+•	3 Uses of proxy servers 
+o	3.1 Filtering 
+	3.1.1 Filtering of encrypted data
+o	3.2 Caching
+o	3.3 Translation
+o	3.4 DNS proxy
+o	3.5 Bypassing filters and censorship
+o	3.6 Logging and eavesdropping
+o	3.7 Accessing services anonymously
+•	4 Implementations of proxies 
+o	4.1 Transparent proxy 
+	4.1.1 Purpose
+	4.1.2 Issues
+	4.1.3 Implementation methods
+	4.1.4 Detection
+o	4.2 CGI proxy
+o	4.3 Anonymous HTTPS proxy
+o	4.4 Suffix proxy
+o	4.5 Tor onion proxy software
+o	4.6 I2P anonymous proxy
+o	4.7 Proxy vs. NAT
+•	5 Web proxy servers
+•	6 See also 
+o	6.1 Overview & Discussions
+o	6.2 Proxifiers
+o	6.3 Diverse Topics
+•	7 References
+•	8 External links
+
+[edit] Uses
+A proxy server has a variety of potential purposes, including:
+•	To keep machines behind it anonymous, mainly for security.[1]
+•	To speed up access to resources (using caching). Web proxies are commonly used to cache web pages from a web server.[2]
+•	To prevent downloading the same content multiple times (and save bandwidth).
+•	To log / audit usage, e.g. to provide company employee Internet usage reporting.
+•	To scan transmitted content for malware before delivery.
+•	To scan outbound content, e.g., for data loss prevention.
+•	Access enhancement/restriction 
+o	To apply access policy to network services or content, e.g. to block undesired sites.
+o	To access sites prohibited or filtered by your ISP or institution.
+o	To bypass security / parental controls.
+o	To circumvent Internet filtering to access content otherwise blocked by governments.[3]
+o	To allow a web site to make web requests to externally hosted resources (e.g. images, music files, etc.) when cross-domain restrictions prohibit the web site from linking directly to the outside domains.
+o	To allow the browser to make web requests to externally hosted content on behalf of a website when cross-domain restrictions (in place to protect websites from the likes of data theft) prohibit the browser from directly accessing the outside domains.
+[edit] Types of proxy
+A proxy server may run right on the user's local computer, or at various points between the user's computer and destination servers on the Internet.
+•	A proxy server that passes requests and responses unmodified is usually called a gateway or sometimes a tunneling proxy.
+•	A forward proxy is an Internet-facing proxy used to retrieve from a wide range of sources (in most cases anywhere on the Internet).
+•	A reverse proxy is usually an Internet-facing proxy used as a front-end to control and protect access to a server on a private network, commonly also performing tasks such as load-balancing, authentication, decryption or caching.
+[edit] Forward proxies
+ 
+ 
+A forward proxy taking requests from an internal network and forwarding them to the Internet.
+Forward proxies are proxies where the client server names the target server to connect to.[4] Forward proxies are able to retrieve from a wide range of sources (in most cases anywhere on the Internet).
+The terms "forward proxy" and "forwarding proxy" are a general description of behavior (forwarding traffic) and thus ambiguous. Except for Reverse proxy, the types of proxies described in this article are more specialized sub-types of the general forward proxy concept.
+[edit] Open proxies
+ 
+ 
+An open proxy forwarding requests from and to anywhere on the Internet.
+Main article: Open proxy
+An open proxy is a forwarding proxy server that is accessible by any Internet user. Gordon Lyon estimates there are "hundreds of thousands" of open proxies on the Internet.[5] An anonymous open proxy allows users to conceal their IP address while browsing the Web or using other Internet services. There are varying degrees of anonymity however, as well as a number of methods of 'tricking' the client into revealing itself regardless of the proxy being used.
+[edit] Reverse proxies
+ 
+ 
+A reverse proxy taking requests from the Internet and forwarding them to servers in an internal network. Those making requests connect to the proxy and may not be aware of the internal network.
+Main article: Reverse proxy
+A reverse proxy (or surrogate) is a proxy server that appears to clients to be an ordinary server. Requests are forwarded to one or more origin servers which handle the request. The response is returned as if it came directly from the web server.[4]
+Reverse proxies are installed in the neighborhood of one or more web servers. All traffic coming from the Internet and with a destination of one of the neighborhood's web servers goes through the proxy server. The use of "reverse" originates in its counterpart "forward proxy" since the reverse proxy sits closer to the web server and serves only a restricted set of websites.
+There are several reasons for installing reverse proxy servers:
+•	Encryption / SSL acceleration: when secure web sites are created, the SSL encryption is often not done by the web server itself, but by a reverse proxy that is equipped with SSL acceleration hardware. See Secure Sockets Layer. Furthermore, a host can provide a single "SSL proxy" to provide SSL encryption for an arbitrary number of hosts; removing the need for a separate SSL Server Certificate for each host, with the downside that all hosts behind the SSL proxy have to share a common DNS name or IP address for SSL connections. This problem can partly be overcome by using the SubjectAltName feature of X.509 certificates.
+•	Load balancing: the reverse proxy can distribute the load to several web servers, each web server serving its own application area. In such a case, the reverse proxy may need to rewrite the URLs in each web page (translation from externally known URLs to the internal locations).
+•	Serve/cache static content: A reverse proxy can offload the web servers by caching static content like pictures and other static graphical content.
+•	Compression: the proxy server can optimize and compress the content to speed up the load time.
+•	Spoon feeding: reduces resource usage caused by slow clients on the web servers by caching the content the web server sent and slowly "spoon feeding" it to the client. This especially benefits dynamically generated pages.
+•	Security: the proxy server is an additional layer of defense and can protect against some OS and WebServer specific attacks. However, it does not provide any protection to attacks against the web application or service itself, which is generally considered the larger threat.
+•	Extranet Publishing: a reverse proxy server facing the Internet can be used to communicate to a firewalled server internal to an organization, providing extranet access to some functions while keeping the servers behind the firewalls. If used in this way, security measures should be considered to protect the rest of your infrastructure in case this server is compromised, as its web application is exposed to attack from the Internet.
+[edit] Performance Enhancing Proxies
+Main article: Performance Enhancing Proxy
+A proxy that is designed to mitigate specific link related issues or degradations. PEPs (Performance Enhancing Proxies) are typically used to improve TCP performance in the presence of high Round Trip Times (RTTs) and wireless links with high packet loss. They are also frequently used for highly asynchronous links featuring very different upload and download rates.
+[edit] Uses of proxy servers
+[edit] Filtering
+Further information: Content-control software
+A content-filtering web proxy server provides administrative control over the content that may be relayed in one or both directions through the proxy. It is commonly used in both commercial and non-commercial organizations (especially schools) to ensure that Internet usage conforms to acceptable use policy. In some cases users can circumvent the proxy, since there are services designed to proxy information from a filtered website through a non filtered site to allow it through the user's proxy.[6]
+A content filtering proxy will often support user authentication, to control web access. It also usually produces logs, either to give detailed information about the URLs accessed by specific users, or to monitor bandwidth usage statistics. It may also communicate to daemon-based and/or ICAP-based antivirus software to provide security against virus and other malware by scanning incoming content in real time before it enters the network.
+Many work places, schools, and colleges restrict the web sites and online services that are made available in their buildings. This is done either with a specialized proxy, called a content filter (both commercial and free products are available), or by using a cache-extension protocol such as ICAP, that allows plug-in extensions to an open caching architecture.
+Some common methods used for content filtering include: URL or DNS blacklists, URL regex filtering, MIME filtering, or content keyword filtering. Some products have been known to employ content analysis techniques to look for traits commonly used by certain types of content providers.
+Requests made to the open internet must first pass through an outbound proxy filter. The web-filtering company provides a database of URL patterns (regular expressions) with associated content attributes. This database is updated weekly by site-wide subscription, much like a virus filter subscription. The administrator instructs the web filter to ban broad classes of content (such as sports, pornography, online shopping, gambling, or social networking). Requests that match a banned URL pattern are rejected immediately.
+Assuming the requested URL is acceptable, the content is then fetched by the proxy. At this point a dynamic filter may be applied on the return path. For example, JPEG files could be blocked based on fleshtone matches, or language filters could dynamically detect unwanted language. If the content is rejected then an HTTP fetch error is returned and nothing is cached.
+Most web filtering companies use an internet-wide crawling robot that assesses the likelihood that a content is a certain type. The resultant database is then corrected by manual labor based on complaints or known flaws in the content-matching algorithms.
+[edit] Filtering of encrypted data
+Web filtering proxies are not able to peer inside secure sockets HTTP transactions, assuming the chain-of-trust of SSL/TLS has not been tampered with.
+The SSL/TLS chain-of-trust relies on trusted root certificate authorities. In a workplace setting where the client is managed by the organization, trust might be granted to a root certificate whose private key is known to the proxy. Concretely, a root certificate generated by the proxy is installed into the browser CA list by IT staff.
+In such scenarios, proxy analysis of the contents of a SSL/TLS transaction becomes possible. The proxy is effectively operating a man-in-the-middle attack, allowed by the client's trust of a root certificate the proxy owns.
+[edit] Caching
+A caching proxy server accelerates service requests by retrieving content saved from a previous request made by the same client or even other clients. Caching proxies keep local copies of frequently requested resources, allowing large organizations to significantly reduce their upstream bandwidth usage and costs, while significantly increasing performance. Most ISPs and large businesses have a caching proxy. Caching proxies were the first kind of proxy server. Some poorly implemented caching proxies have had downsides (e.g., an inability to use user authentication). Some problems are described in RFC 3143 (Known HTTP Proxy/Caching Problems). Another important use of the proxy server is to reduce the hardware cost. An organization may have many systems on the same network or under control of a single server, prohibiting the possibility of an individual connection to the Internet for each system. In such a case, the individual systems can be connected to one proxy server, and the proxy server connected to the main server.
+[edit] Translation
+A translation proxy is a proxy server that is used to localize a website experience for different markets. Traffic from global audiences is routed through the translation proxy to the source website. As visitors browse the proxied site, requests go back to the source site where pages are rendered. Original language content in the response is replaced by translated content as it passes back through the proxy. The translations used in a translation proxy can be either machine translation, human translation, or a combination of machine and human translation. Different translation proxy implementations have different capabilities. Some allow further customization of the source site for local audiences such as excluding source content or substituting source content with original local content.
+[edit] DNS proxy
+A DNS proxy server takes DNS queries from a (usually local) network and forwards them to an Internet Domain Name Server. It may also cache DNS records.
+[edit] Bypassing filters and censorship
+If the destination server filters content based on the origin of the request, the use of a proxy can circumvent this filter. For example, a server using IP-based geolocation to restrict its service to a certain country can be accessed using a proxy located in that country to access the service. Likewise, an incorrectly configured proxy can provide access to a network otherwise isolated from the Internet.[5]
+[edit] Logging and eavesdropping
+Proxies can be installed in order to eavesdrop upon the data-flow between client machines and the web. All content sent or accessed – including passwords submitted and cookies used – can be captured and analyzed by the proxy operator. For this reason, passwords to online services (such as webmail and banking) should always be exchanged over a cryptographically secured connection, such as SSL. By chaining proxies which do not reveal data about the original requester, it is possible to obfuscate activities from the eyes of the user's destination. However, more traces will be left on the intermediate hops, which could be used or offered up to trace the user's activities. If the policies and administrators of these other proxies are unknown, the user may fall victim to a false sense of security just because those details are out of sight and mind. In what is more of an inconvenience than a risk, proxy users may find themselves being blocked from certain Web sites, as numerous forums and Web sites block IP addresses from proxies known to have spammed or trolled the site. Proxy bouncing can be used to maintain your privacy.
+[edit] Accessing services anonymously
+Main article: Anonymizer
+An anonymous proxy server (sometimes called a web proxy) generally attempts to anonymize web surfing. There are different varieties of anonymizers. The destination server (the server that ultimately satisfies the web request) receives requests from the anonymizing proxy server, and thus does not receive information about the end user's address. The requests are not anonymous to the anonymizing proxy server, however, and so a degree of trust is present between the proxy server and the user. Many proxy servers are funded through a continued advertising link to the user. Access control: Some proxy servers implement a logon requirement. In large organizations, authorized users must log on to gain access to the web. The organization can thereby track usage to individuals. Some anonymizing proxy servers may forward data packets with header lines such as HTTP_VIA, HTTP_X_FORWARDED_FOR, or HTTP_FORWARDED, which may reveal the IP address of the client. Other anonymizing proxy servers, known as elite or high-anonymity proxies, only include the REMOTE_ADDR header with the IP address of the proxy server, making it appear that the proxy server is the client. A website could still suspect a proxy is being used if the client sends packets which include a cookie from a previous visit that did not use the high-anonymity proxy server. Clearing cookies, and possibly the cache, would solve this problem.
+[edit] Implementations of proxies
+[edit] Transparent proxy
+Also known as an intercepting proxy, inline proxy, or forced proxy, a transparent proxy intercepts normal communication at the network layer without requiring any special client configuration. Clients need not be aware of the existence of the proxy. A transparent proxy is normally located between the client and the Internet, with the proxy performing some of the functions of a gateway or router.[7]
+RFC 2616 (Hypertext Transfer Protocol—HTTP/1.1) offers standard definitions:
+"A 'transparent proxy' is a proxy that does not modify the request or response beyond what is required for proxy authentication and identification".
+"A 'non-transparent proxy' is a proxy that modifies the request or response in order to provide some added service to the user agent, such as group annotation services, media type transformation, protocol reduction, or anonymity filtering".
+In 2009 a security flaw in the way that transparent proxies operate was published by Robert Auger,[8] and the Computer Emergency Response Team issued an advisory listing dozens of affected transparent and intercepting proxy servers. [9]
+[edit] Purpose
+Intercepting proxies are commonly used in businesses to prevent avoidance of acceptable use policy, and to ease administrative burden, since no client browser configuration is required. This second reason however is mitigated by features such as Active Directory group policy, or DHCP and automatic proxy detection.
+Intercepting proxies are also commonly used by ISPs in some countries to save upstream bandwidth and improve customer response times by caching. This is more common in countries where bandwidth is more limited (e.g. island nations) or must be paid for.
+[edit] Issues
+The diversion / interception of a TCP connection creates several issues. Firstly the original destination IP and port must somehow be communicated to the proxy. This is not always possible (e.g. where the gateway and proxy reside on different hosts). There is a class of cross site attacks that depend on certain behaviour of intercepting proxies that do not check or have access to information about the original (intercepted) destination. This problem may be resolved by using an integrated packet-level and application level appliance or software which is then able to communicate this information between the packet handler and the proxy.
+Intercepting also creates problems for HTTP authentication, especially connection-oriented authentication such as NTLM, since the client browser believes it is talking to a server rather than a proxy. This can cause problems where an intercepting proxy requires authentication, then the user connects to a site which also requires authentication.
+Finally intercepting connections can cause problems for HTTP caches, since some requests and responses become uncacheable by a shared cache.
+[edit] Implementation methods
+In integrated firewall / proxy servers where the router/firewall is on the same host as the proxy, communicating original destination information can be done by any method, for example Microsoft TMG or WinGate.
+Interception can also be performed using Cisco's WCCP (Web Cache Control Protocol). This proprietary protocol resides on the router and is configured from the cache, allowing the cache to determine what ports and traffic is sent to it via transparent redirection from the router. This redirection can occur in one of two ways: GRE Tunneling (OSI Layer 3) or MAC rewrites (OSI Layer 2).
+Once traffic reaches the proxy machine itself interception is commonly performed with NAT (Network Address Translation). Such setups are invisible to the client browser, but leave the proxy visible to the web server and other devices on the internet side of the proxy. Recent Linux and some BSD releases provide TPROXY (transparent proxy) which performs IP-level (OSI Layer 3) transparent interception and spoofing of outbound traffic, hiding the proxy IP address from other network devices.
+[edit] Detection
+There are several methods that can often be used to detect the presence of an intercepting proxy server:
+•	By comparing the client's external IP address to the address seen by an external web server, or sometimes by examining the HTTP headers received by a server. A number of sites have been created to address this issue, by reporting the user's IP address as seen by the site back to the user in a web page.[1]
+•	By comparing the result of online IP checkers when accessed using https vs http, as most intercepting proxies do not intercept SSL. If there is suspicion of SSL being intercepted, one can examine the certificate associated with any secure web site, the root certificate should indicate whether it was issued for the purpose of intercepting.
+•	By comparing the sequence of network hops reported by a tool such as traceroute for a proxied protocol such as http (port 80) with that for a non proxied protocol such as SMTP (port 25). [2],[3]
+•	By attempting to make a connection to an IP address at which there is known to be no server. The proxy will accept the connection and then attempt to proxy it on. When the proxy finds no server to accept the connection it may return an error message or simply close the connection to the client. This difference in behaviour is simple to detect. For example most web browsers will generate a browser created error page in the case where they cannot connect to an HTTP server but will return a different error in the case where the connection is accepted and then closed.[10]
+•	By serving the end-user specially programmed Adobe Flash SWF applications or Sun Java applets that send HTTP calls back to their server.
+[edit] CGI proxy
+A CGI web proxy passes along HTTP protocol requests like any other proxy server. However, the web proxy accepts target URLs within a user's browser window, processes the request, and then displays the contents of the requested URL immediately back within the user's browser. This is generally quite different than a corporate internet proxy which some people mistakenly refer to as a web proxy.
+They generally use PHP or CGI to implement the proxy functionality. These types of proxies are frequently used to gain access to web sites blocked by corporate or school proxies. Since they also hide the user's own IP address from the web sites they access through the proxy, they are sometimes also used to gain a degree of anonymity, called "Proxy Avoidance".
+However, if a network administrator monitors filtered URLs by frequency of use, CGI proxies are easy to detect because every data request for pages and page elements such as images are being redirected through the single CGI proxy URL.
+[edit] Anonymous HTTPS proxy
+Users wanting to bypass web filtering, that want to prevent anyone from monitoring what they are doing, will typically search the internet for an open and anonymous HTTPS transparent proxy. They will then program their browser to proxy all requests through the web filter to this anonymous proxy. Those requests will be encrypted with https. The web filter cannot distinguish these transactions from, say, a legitimate access to a financial website. Thus, content filters are only effective against unsophisticated users.
+Use of HTTPS proxies are detectable even without examining the encrypted data, based simply on firewall monitoring of addresses for frequency of use and bandwidth usage. If a massive amount of data is being directed through an address that is within an ISP address range such as Comcast, it is likely a home-operated proxy server. Either the single address or the entire ISP address range is then blocked at the firewall to prevent further connections.
+[edit] Suffix proxy
+A suffix proxy allows a user to access web content by appending the name of the proxy server to the URL of the requested content (e.g. "en.wikipedia.org.SuffixProxy.com"). Suffix proxy servers are easier to use than regular proxy servers but they do not offer high levels of anonymity and their primary use is for bypassing web filters. However, this is rarely used due to more advanced web filters.
+[edit] Tor onion proxy software
+Main article: Tor (anonymity network)
+ 
+ 
+The Vidalia Tor-network map.
+Tor (short for The Onion Router) is a system intended to enable online anonymity.[11] Tor client software routes Internet traffic through a worldwide volunteer network of servers in order to conceal a user's location or usage from someone conducting network surveillance or traffic analysis. Using Tor makes it more difficult to trace Internet activity, including "visits to Web sites, online posts, instant messages and other communication forms", back to the user.[11] It is intended to protect users' personal freedom, privacy, and ability to conduct confidential business by keeping their internet activities from being monitored.
+"Onion routing" refers to the layered nature of the encryption service: The original data are encrypted and re-encrypted multiple times, then sent through successive Tor relays, each one of which decrypts a "layer" of encryption before passing the data on to the next relay and ultimately the destination. This reduces the possibility of the original data being unscrambled or understood in transit.[12]
+The Tor client is free software, and there are no additional charges to use the network.
+[edit] I2P anonymous proxy
+Main article: I2P
+The I2P anonymous network ('I2P') is a proxy network aiming at online anonymity. It implements garlic routing, which is an enhancement of Tor's onion routing. I2P is fully distributed and works by encrypting all communications in various layers and relaying them through a network of routers run by volunteers in various locations. By keeping the source of the information hidden, I2P offers censorship resistance. The goals of I2P are to protect users' personal freedom, privacy, and ability to conduct confidential business.
+Each user of I2P runs an I2P router on their computer (node). The I2P router takes care of finding other peers and building anonymizing tunnels through them. I2P provides proxies for all protocols (HTTP, irc, SOCKS, ...).
+The software is free and open-source, and the network is free of charge to use.
+[edit] Proxy vs. NAT
+Most of the time 'proxy' refers to a layer-7 application on the OSI reference model. However, another way of proxying is through layer-3 and is known as Network Address Translation (NAT). The difference between these two technologies is the tier in which they operate, and the way of configuring the clients to use them as a proxy.
+In client configuration of NAT, configuring the gateway is sufficient. However, for client configuration of a layer-7 proxy, the destination of the packets that the client generates must always be the proxy server (layer-7), then the proxy server reads each packet and finds out the true destination.
+Because NAT operates at layer-3, it is less resource-intensive than the layer-7 proxy, but also less flexible. As we compare these two technologies, we might encounter a terminology known as 'transparent firewall'. Transparent firewall means that the layer-3 proxy uses the layer-7 proxy advantages without the knowledge of the client. The client presumes that the gateway is a NAT in layer-3, and it does not have any idea about the inside of the packet, but through this method the layer-3 packets are sent to the layer-7 proxy for investigation.
+[edit] Web proxy servers
+Examples of web proxy servers (list is not exhaustive):
+•	Apache with mod_proxy
+•	Internet Information Services configured as proxy (module Application Request Routing provides advanced options)
+•	nginx
+•	Privoxy
+•	Squid
+•	Varnish which is reverse proxy only
+•	WinGate
+[edit] See also
+[edit] Overview & Discussions
+•	Comparison of lightweight web servers
+•	Comparison of web servers
+•	Transparent SMTP proxy
+•	Web accelerator which discusses host-based HTTP acceleration
+•	Web cache
+[edit] Proxifiers
+There are client programs that "SOCKS-ify",[13] which allows adaptation of any networked software to connect to external networks via certain types of proxy servers (mostly SOCKS).
+•	Comparison of proxifiers
+[edit] Diverse Topics
+•	Application layer firewall
+•	Captive portal
+•	Distributed Checksum Clearinghouse
+•	Internet privacy
+•	Proxy list
+•	SOCKS an alternative firewall traversal protocol supported by many applications
+[edit] References
+1.	^ "Firewall and Proxy Server HOWTO". tldp.org. Retrieved 4 September 2011. "The proxy server is, above all, a security device."
+2.	^ Thomas, Keir (2006). Beginning Ubuntu Linux: From Novice to Professional. Apress. ISBN 978-1-59059-627-2. "A proxy server helps speed up Internet access by storing frequently accessed pages"
+3.	^ "2010 Circumvention Tool Usage Report". The Berkman Center for Internet & Society at Harvard University. October 2010.
+4.	^ a b "Forward and Reverse Proxies". httpd mod_proxy. Apache. Retrieved 20 December 2010.
+5.	^ a b Lyon, Gordon (2008). Nmap network scanning. US: Insecure. p. 270. ISBN 978-0-9799587-1-7.
+6.	^ "Using a Ninjaproxy to get through a filtered proxy.". advanced filtering mechanics. TSNP. Retrieved 17 September 2011.
+7.	^ "Transparent Proxy Definition". ukproxyserver.org. 1 February 2011. Retrieved 14 February 2013.
+8.	^ "Socket Capable Browser Plugins Result In Transparent Proxy Abuse". The Security Practice. 9 March 2009. Retrieved 14 August 2010.
+9.	^ "Vulnerability Note VU#435052". US CERT. 23 February 2009. Retrieved 14 August 2010.
+10.	^ Wessels, Duane (2004). Squid The Definitive Guide. O'Reilly. p. 130. ISBN 978-0-596-00162-9.
+11.	^ a b Glater, Jonathan (25 January 2006). "Privacy for People Who Don't Show Their Navels". The New York Times. Retrieved 4 August 2011.
+12.	^ The Tor Project. "Tor: anonymity online". Retrieved 9 January 2011.
+13.	^ Zwicky, Elizabeth D.; Cooper, Simon; Chapman, D. Brent (2000). Building Internet Firewalls (2nd ed.). p. 235. ISBN 978-1-56592-871-8.
+PROXY BOUNCING:
+Also called a "proxy," it is a computer system or router that breaks the connection between sender and receiver. Functioning as a relay between client and server, proxy servers help prevent an attacker from invading a private network and are one of several tools used to build a firewall.
+
+The word proxy means "to act on behalf of another," and a proxy server acts on behalf of the user. All requests from clients to the Internet go to the proxy server first. The proxy evaluates the request, and if allowed, re-establishes it on the outbound side to the Internet. Likewise, responses from the Internet go to the proxy server to be evaluated. The proxy then relays the message to the client. Both client and server think they are communicating with one another, but, in fact, are dealing only with the proxy.
+
+Address Translation and Caching
+The proxy server is a dual-homed host with two network interfaces and two IP addresses. The IP address on the outbound side of the proxy is the one the Internet sees, and the address of the machine making the request is hidden to the outside world. Proxies are often used in conjunction with network address translation (NAT), which hides all the IP addresses of the client machines on the internal network. Proxy servers may also cache Web pages, so that the next request for that same page can be obtained much faster locally. See NAT and proxy cache.
+
+Other Proxies
+Anonymous proxy servers let users surf the Web and keep their IP address private (see anonymous proxy). Although not specifically called a proxy, Internet e-mail (SMTP) is a similar concept because it forwards mail. Messages are not sent directly from client to client without going through the mail server. Likewise, the Internet's Usenet news system (NNTP) forwards messages to neighboring servers. See firewall.
+
+Application Level and Circuit Level
+Proxy servers are available for common Internet services; for example, an HTTP proxy is used for Web access; an FTP proxy is used for file transfers. Such proxies are called "application-level" proxies or "application-level gateways," because they are dedicated to a particular application and protocol and are aware of the content of the packets being sent. A generic proxy, called a "circuit-level" proxy, supports multiple applications. For example, SOCKS is IP-based circuit-level proxy server software that supports TCP and UDP applications (see SOCKS).
+
+Forward and Reverse Proxies
+In this definition, the proxy servers are used to hide the details of the clients from the servers and are thus known as "forward proxies." However, they can also reside at the Web site to hide the details of the servers from the clients (see reverse proxy).
+ 
+
+A Proxy Server in a LAN
+In this LAN server illustration, the proxy server sits between two routers in what is known as a "demilitarized zone." See DMZ.
+ 
+Onion routing
+Onion routing is a technique for anonymous communication over a computer network. Messages are repeatedly encrypted and then sent through several network nodes called onion routers. Like someone peeling an onion, each onion router removes a layer of encryption to uncover routing instructions, and sends the message to the next router where this is repeated. This prevents these intermediary nodes from knowing the origin, destination, and contents of the message.[citation needed]
+Onion routing was developed by Michael G. Reed (formerly of Extreme Networks), Paul F. Syverson, and David M. Goldschlag, and patented by the United States Navy in US Patent No. 6266704 (1998). As of 2009, Tor is the predominant technology that employs onion routing.
+Contents
+ [hide] 
+•	1 Capabilities
+•	2 Onions 
+o	2.1 Routing onions 
+	2.1.1 Circuit establishment and sending data
+	2.1.2 Receiving data
+o	2.2 Weaknesses
+•	3 Applications 
+o	3.1 Tor
+o	3.2 Decoy cyphers
+•	4 See also
+•	5 Further reading
+•	6 References
+•	7 External links
+
+[edit] Capabilities
+The idea of onion routing (OR) is to protect the privacy of the sender and recipient of a message, while also providing protection for message content as it traverses a network.[citation needed]
+Onion routing accomplishes this according to the principle of Chaum's mix cascades: messages travel from source to destination via a sequence of proxies ("onion routers"), which re-route messages in an unpredictable path. To prevent an adversary from eavesdropping on message content, messages are encrypted between routers. The advantage of onion routing (and mix cascades in general) is that it is not necessary to trust each cooperating router; if any router is compromised, anonymous communication can still be achieved. This is because each router in an OR network accepts messages, re-encrypts them, and transmits to another onion router. An attacker with the ability to monitor every onion router in a network might be able to trace the path of a message through the network, but an attacker with more limited capabilities will have difficulty even if he or she controls routers on the message's path.[citation needed]
+Onion routing does not provide perfect sender or receiver anonymity against all possible eavesdroppers—that is, it is possible for a local eavesdropper to observe that an individual has sent or received a message. It does provide for a strong degree of unlinkability, the notion that an eavesdropper cannot easily determine both the sender and receiver of a given message. Even within these confines, onion routing does not provide any guarantee of privacy; rather, it provides a continuum in which the degree of privacy is generally a function of the number of participating routers versus the number of compromised or malicious routers.[citation needed]
+[edit] Onions
+[edit] Routing onions
+ 
+This section may be confusing or unclear. Please help clarify the article. Suggestions may be on the talk page. (October 2009)
+
+ 
+ 
+Example "onion"
+A routing onion (or just onion) is a data structure formed by 'wrapping' a plaintext message with successive layers of encryption, such that each layer can be 'unwrapped' (decrypted) like the layer of an onion by one intermediary in a succession of intermediaries, with the original plaintext message only being viewable by at most:[1]
+1.	the sender
+2.	the last intermediary (the exit node)
+3.	the recipient
+If there is end-to-end encryption between the sender and the recipient, then not even the last intermediary can view the original message; this is similar to a game of 'pass the parcel'. An intermediary is traditionally called a node or router.
+[edit] Circuit establishment and sending data
+To create and transmit an onion, the following steps are taken:[1]
+1.	The originator picks nodes from a list provided by a special node called the directory node (traffic between the originator and the directory node may also be encrypted or otherwise anonymised or decentralised); the chosen nodes are ordered to provide a path through which the message may be transmitted; this ordering of the nodes is called a chain or a circuit. No node within the circuit, except for the exit node, can infer where in the chain it is located, and no node can tell whether the node before it is the originator or how many nodes are in the circuit.
+2.	Using asymmetric key cryptography, the originator uses the public key (obtained from the directory) of the first node in the circuit, known as the entry node, to send it an encrypted message, called a create cell, containing: 
+1.	A circuit ID. The circuit ID is random and different for each connection in the chain.
+2.	A request for the receiving node (i.e. the entry node in this case) to establish a circuit with the originator.
+3.	The originator's half of a Diffie-Hellman handshake (to establish a shared secret).
+3.	The entry node, which just received one half of the handshake, replies to the originator, in unencrypted plaintext: 
+1.	The entry node's half of the Diffie-Hellman handshake.
+2.	A hash of the shared secret, so that the originator can verify that he/she and the entry node share the same secret.
+4.	Now the entry node and originator use their shared secret for encrypting all their correspondence in symmetric encryption (this is significantly more efficient than using asymmetric encryption). The shared secret is referred to as a session key.
+5.	A relay cell, as opposed to a command cell like the create cell used in the first step, is not interpreted by the receiving node, but relayed to another node. Using the already established encrypted link, the originator sends the entry node a relay extend cell, which is like any relay cell, only that it contains a create cell intended for the next node (known as the relay node) in the chain, encrypted using the relay node's public key and relayed to it by the entry node, containing the following: 
+1.	A circuit ID. Once again, it is arbitrary, and is not necessarily the same for this connection as it is for the previous.
+2.	A request from the entry node to the relay node to establish a circuit.
+3.	The originator's half of a Diffie-Hellman handshake. Once again, the new node cannot tell whether this handshake originated from the first node or the originator, it is irrelevant for operating the chain.
+6.	The relay node, similar to the first step, replies with its half of the handshake in plain text along with a hash of the shared secret.
+7.	As the entry node - relay node circuit has been established, the entry node replies to the originator with a relay extended cell, telling it that the chain has been extended, and containing the hash of the shared secret along with the relay node's half of the handshake. The originator and the relay node now share a secret key.
+8.	To extend the chain further, the originator sends the entry node a relay cell which contains a relay cell that only the relay node can decrypt, instructing the relay node to extend the chain further. The process can be repeated as above to as many nodes as possible. In Tor, for example, chains are limited to 3 nodes: the entry node, the relay node, and the exit node.
+When the chain is complete, the originator can send data over the Internet anonymously. For example, if the originator wishes to open a website, the originator's onion proxy (typically running a SOCKS proxy) forwards the request from the originator's browser to the originator's local onion router (which controls the circuits). The onion router creates the following cell:
+•	{RELAY C1:
+•	[RELAY
+•	(Send HTTP request to IP-of-webpage)]}
+Where curly brackets indicate content encrypted with the entry node's shared key, square brackets content encrypted with the relay node's key, and regular brackets content encrypted with the exit node's key.
+Upon receiving the cell, the entry node only sees the following:
+•	RELAY C1:
+•	ENCRYPTED CONTENT
+The entry node knows that relay requests for circuit ID 1 (C1) should be relayed to circuit ID 2 (C2), since it received a request from the originator to extend the circuit earlier. For this reason, there is no need for the originator to know the circuit IDs, it is enough for it to tell the entry node which circuit it refers to. The entry node takes the payload and sends a relay cell to the relay node.
+Upon receiving the relayed cell from the entry node, the relay node sees the following:
+•	RELAY C2:
+•	ENCRYPTED CONTENT
+The relay node follows the same protocol as the entry node and relays the payload to the exit node. The exit node sees this:
+•	RELAY C3:
+•	Send HTTP request to IP-of-webpage
+The exit node proceeds to sending an HTTP request to the website.
+[edit] Receiving data
+Continuing from the above example: the website's server responds to the exit node with the contents of the web page as follows:[1]
+•	HTML FILE OF WEBPAGE
+The exit node uses its session key (the secret shared between it and the sender) to encrypt the content it received, and sends the following cell to the relay node:
+•	RELAY C3
+•	ENCRYPTED CONTENT
+The relay node knows which shared secret key to use, since it refers to circuit ID #3, and uses that key to encrypt the message again (so that no adversary watching the traffic can know the structure of the chain). It also knows that any relay request from circuit #3 should be relayed to circuit #2. It relays the following cell to the entry node:
+•	RELAY C2
+•	ENCRYPTED CONTENT
+The entry node takes the encrypted payload, and sends the following cell to the originator:
+•	RELAY C1
+•	ENCRYPTED CONTENT
+The sender receives a cell that is encrypted, from inside the cell (onion) to the outside: the exit node shared key, the relay node shared key, and the entry node shared key. The sender's onion router must decrypt the cell three times with three different keys in order to see the page. The number of layers of encryption between each hop is constant, however, no node can tell whether encrypted data contains more encrypted data. The purpose of layered encryption is not to make the encryption stronger per se, but rather to facilitate the execution of perfect forward secrecy. That is, if the exit node encrypted the page with the sender key, and the nodes after it would only pass on that encrypted data without encrypting it in more layers with their respective keys, an adversary would only have to compromise the exit node's shared key to be able to intercept the sender's incoming traffic. However, since the nodes add more layers of encryption as the cell is passed on, compromising the exit node's shared key will only reveal the contents of the webpage but not the IP of the sender.
+[edit] Weaknesses
+•	Timing analysis: An adversary could determine whether a node is communicating with a web by correlating when messages are sent by a server and when messages are received by a node. Tor, and any other low latency network, is vulnerable to such an attack.[2] A node can defeat this attack by sending dummy messages whenever it is not sending or receiving real messages. This counter-measure is not currently part of the Tor threat model [3] as it is considered infeasible to protect against this type of attack.[4]
+•	Intersection attacks: Nodes periodically fail or leave the network; any chain that remains functioning cannot have been routed through either the nodes that left or the nodes that recently joined the network, increasing the chances of a successful traffic analysis.[3]
+•	Predecessor attacks: A compromised node can keep track of a session as it occurs over multiple chain reformations (chains are periodically torn down and rebuilt). If the same session is observed over the course of enough reformations, the compromised node tends to connect with the particular sender more frequently than any [other] node, increasing the chances of a successful traffic analysis.[5]
+•	Exit node sniffing: An exit node (the last node in a chain) has complete access to the content being transmitted from the sender to the recipient; Dan Egerstad, a Swedish researcher, used such an attack to collect the passwords of over 100 email accounts related to foreign embassies.[6] However, if the message is encrypted by SSL, the exit node cannot read the information, just as any encrypted link over the regular internet.
+[edit] Applications
+[edit] Tor
+Main article: Tor (anonymity network)
+On August 13, 2004 at the 13th USENIX Security Symposium,[7] Roger Dingledine, Nick Mathewson, and Paul Syverson presented Tor, The Second-Generation Onion Router.[8]
+Tor is unencumbered by the original onion routing patents, because it uses telescoping circuits[9]. Tor provides perfect forward secrecy and moves protocol cleaning outside of the onion routing layer, making it a general purpose TCP transport. It also provides low latency, directory servers, end-to-end integrity checking and variable exit policies for routers. Reply onions have been replaced by a rendezvous system, allowing hidden services and websites. The .onion pseudo-top-level domain is used for addresses in the Tor network.
+The Tor source code is published under the BSD license. As of April 2012, there are about 3,000 publicly accessible onion routers.[10]
+[edit] Decoy cyphers
+The weak link in decryption is the human in the loop. Human computation is slow and expensive. Whenever a cypher needs to be sent to a human for semantic processing, this substantially increases the cost of decryption.[citation needed]
+A decoy cypher can take the form of noise – sending copious messages of encrypted garbage plaintext. This decreases the signal-to-noise ratio for humans trying to interpret decrypted "plaintext" messages.
+A decoy cypher can also take the form of misleading information – for example, in an onion cypher, most of the layers may contain information that when decrypted will produce a message that directly misleads the person reading it – often resulting in them taking actions against their interest – such as signalling that they are eavesdropping by responding to a specific false signal, false flag attacks, or causing them to suspect the wrong parties. The actual message can still be contained at some level of the onion – but preferably not the lowest level – which may include an innocuous message so that if all layers are decrypted the core seems innocent (see noise decoy cypher).[citation needed]
+[edit] See also
+•	Garlic routing
+•	Anonymous P2P
+•	Tor (anonymity network)
+•	Degree of anonymity
+•	Chaum mixes
+•	Bitblinder
+•	Java Anon Proxy
+[edit] Further reading
+•	Email Security, Bruce Schneier (ISBN 0-471-05318-X)
+•	Computer Privacy Handbook, Andre Bacard (ISBN 1-56609-171-3)
+[edit] References
+1.	^ a b c Roger Dingledine; Nick Mathewson, Paul Syverson. "Tor: The Second-Generation Onion Router". Retrieved 26 February 2011.
+2.	^ Shmatikov, Wang; Ming-Hsiu Vitaly (2006). "Timing analysis in low-latency mix networks: attacks and defenses". Proceedings of the 11th European conference on Research in Computer Security. ESORICS'06: 18–33. doi:10.1007/11863908_2. Retrieved 24 October 2012.
+3.	^ a b Dingledine, Roger. "Tor: The Second-Generation Onion Router". Tor Project. Retrieved 24 October 2012.
+4.	^ arma. "One cell is enough to break Tor's anonymity". Tor Project. Retrieved 24 October 2012.
+5.	^ Wright, Matthew. K.; Adler, Micah; Levine, Brian Neil; Shields, Clay (November 2004). "The Predecessor Attack: An Analysis of a Threat to Anonymous Communications Systems". ACM Transactions on Information and System Security (TISSEC) 7 (4): 489–522. doi:10.1145/1042031.1042032.
+6.	^ Bangeman, Eric (2007-08-30). "Security researcher stumbles across embassy e-mail log-ins". Arstechnica.com. Retrieved 2010-03-17.
+7.	^ "Security '04". USENIX. 2004-01-04. Retrieved 2010-03-17.
+8.	^ "Security '04 Abstract". Usenix.org. 2004-07-27. Retrieved 2010-03-17.
+9.	^ "Telescoping circuits description". Antecipate blog. 2006-06. Retrieved 2013-03-18.
+10.	^ "TorStatus — Tor Network Status". Torstatus.blutmagie.de. Retrieved 2012-04-13.
+
+https://www.google.co.in/search?q=UNBLOCKING+EVERYTHING+ONLINE&oe=utf-8&rls=org.mozilla%3Aen-US%3Aofficial&client=firefox-a&channel=fflb&gs_l=heirloom-serp.3..0i10l10.1872.17934.0.18926.19.11.5.3.5.0.74.738.11.11.0...0.0...1ac.1.NkwMDnh1xMw&oq=UNBLOCKING+EVERYTHING+ONLINE-blocking videos
+http://www.onehitgamer.com/threads/mw2-leaderboard-unlock-everything-hack-onnline.26830/- blocking online
+Top 10 Ways to Unblock Websites
+17/09/2009 91 Comments Filed Under: Guest Posts, Security, Tutorials 
+Advertisements
+  
+How to unblock websites? These days, Internet filtering and controlled access is the new trend. More business owners are implementing filters within their companies with the purpose of blocking websites. Their intention is understandable but, on the other side, people love freedom and sometimes they feel mistreated. However, here are some things you can do that will help you bypass filters and unblock websites.
+ 
+How to Unblock Websites
+1. Use web proxies. 
+Many free online services allow you to access blocked websites through a proxy server. A proxy server is an intermediary between the user and the server where the request was send. Here is a list with the most known resources of web proxies: Proxy.org, HideMyAss.com, Kortaz.com, KProxy.com and Anonymouse.org 
+2. Use VPN connections. 
+A VPN (Virtual Private Network) is like a tunnel over the public network. The advantage of using VPNs over web proxies is that VPNs are more secure because they are using advanced encryption and allow you to access all the applications (mail, chat, browser etc) in complete anonymity and not only the web sites. The most known free VPN is Hotspot Shield.
+3. Use Hide IP software. 
+These are easy to use and even if the main functionality is to hide IP address and unblock websites, there are applications that can provide you more than that – like cleaning online tracks, testing proxies, manually adding proxy etc. Usually if you choose a free software, then this will provide you a minimal number of proxies and no other features than hiding IP address. Not My IP is one of the latest free hide IP address software that has already gained a large market followed by the old UltraSurf which is already very popular. Regarding paid applications that provide more features and have a complex structure, my recommendations are IP Privacy and Hide My IP.
+4. Use Toolbars and Firefox add-ons. 
+Toolbars and Firefox add-ons are in fact software applications that work on specific browsers and with a simple click you can enable or disable online anonymity.
+5. Use translation services. 
+Introduce the link of the blocked website in the translation field (for example in Google Translator) and choose a random language to translate from because translation from English to English is not supported.
+6. Use Google cache. 
+In the Google search field type cache: before the URL of the blocked website. For example type cache:http://www.domain.com
+7. Use Internet Archive. 
+Internet Archive allows you to view blocked websites through the Wayback Machine. This will retrieve all pages of a specific website indifferent if the website is blocked.
+8. Use Web2Mail service.
+Web2Mail it is a free email service that can sent to your email address specific web pages. You sign up for an account and get set to receive specific websites by email.
+9. Change the http of an URL into https
+This is the  easiest way to access blocked websites. Of course, this might not work every time but you have many other solutions also. This is the fastest one.
+10. Use IP address of the website instead of URL. 
+To use the IP address of a website instead of URL, you must first find its IP. To do this open command prompt and type: “ping domain.com”.
+WARNING: Now, that you have so many methods to choose from, it is up to you for the purpose you use them for. Please remember that ONLY YOU are responsible for your activities and we take no responsibility for the same.
+This guest post was written by Elisabeta Ghidiu, who is interested in online privacy and security solutions. You can also write a guest article and share your favorite web services. Image by kirl lau under CC.
+    
+    
+Related Posts
+1.	How to Access Blocked Websites and Bypass Filters
+2.	Google Free Proxy Can Access Restricted Websites
+3.	TIME 50 Best Websites of 2007
+4.	16 Ways to Increase Website Traffic
+5.	50 Easy Ways to Promote Your Blog
+ 
+
+
+http://hubofhacking.blogspot.com/2010/11/what-is-shortenes-url-vulnerabilities.html
+What is shortened url vulnerabilities?
+Short URL aliases are seen as useful because they are easier to write down, remember or pass around, and are less error-prone to write. One of the largest advantages is that shortened URL's also fit where space is limited. People posting on Twitter make extensive use of shortened URLs to keep their tweets within the service-imposed 140 character limit.
+The growth of Twitter and other social media sites has made URL shortening services a welcomed fact of life for many users. Unfortunately, it seems spammers have now taken notice, and are working shortened URLs into their schemes
+Federal Cyber Security and Short URL Vulnerabilities
+Employees of the Federal Government, like many other internet users, are active participants in the many social networks. 
+Users in the Federal Government run the gamut from clerical employees to the President of the United States and their social networking on sites like Twitter, Facebook and linked-in increases every day. 
+However, this increased activity has opened the government networks to cyber and botnet attack vulnerability because of the use of short URL links.
+Short URL aliases are seen as useful because they are easier to write down, remember or pass around, and are less error-prone to write. One of the largest advantages is that shortened URL's also fit where space is limited. People posting on Twitter make extensive use of shortened URLs to keep their tweets within the service-imposed 140 character limit.
+The growth of Twitter and other social media sites has made URL shortening services a welcomed fact of life for many users. Unfortunately, it seems spammers have now taken notice, and are working shortened URLs into their schemes.
+Short links are easier to paste or type. The trouble-and abuse-follows because users do not know where these shortened links actually lead until they click them. This is a huge opportunity for abuse. Spammers have already latched onto short URLs to evade traditional filters and infect a number of networks with malware and other malicious files.
+Some experts expect to see short URL abuse invade all other forms of Internet communications. The use of shortened URL's is growing geometrically and will continue to see strong growth as social networking sites become even more active. And, According to recent reports there has been a significant increase in the amount of spam using links concealed with URL shortening services.
+This threat is particularly dangerous to government networks where there are large, interrelated networks that are critical to defense and infrastructure networks. As more and more government works use Twitter and other social networks, destructive malicious activity will increase.
+Though URL shortening services typically have filters in place, the filters are not foolproof. McAfee recommends using its proprietary URL shortening service-mcaf.ee. McAfee's shortened URLs are scanned and filtered to weed out malware. This does not eliminate malicious links sent to a user.
+Another way to avoid malicious attacks hiding behind innocent-looking shortened URLs is using a tool like Tweetdeck that offers an option to reveal the full-length link behind the shortened URL before visiting it. In addition to a solution to the short URL problem, Tweetdeck also offers management tools for more efficient social networking.
+URL shortening is a technique on the World Wide Web in which a Uniform Resource Locator (URL) may be made substantially shorter in length and still direct to the required page. This is achieved by using an HTTP Redirect on a domain name that is short, which links to the web page that has a long URL. For example, the URL "http://en.wikipedia.org/wiki/URL_shortening" can be shortened to "http://bit.ly/urlwiki", "http://tinyurl.com/urlwiki", "http://is.gd/urlwiki" or "http://goo.gl/Gmzqv". This is especially convenient for messaging technologies such as Twitter and Identi.ca which severely limit the number of characters that may be used in a message. Short URLs allow otherwise long web addresses to be referred to in a tweet. In November 2009, the shortened links of the URL shortening service Bitly were accessed 2.1 billion times.[1]
+Other uses of URL shortening are to "beautify" a link, track click or disguise of the underlying address. Although disguise of the underlying address may be desired for legitimate business or personal reasons, it is open to abuse and for this reason, some URL shortening service providers have found themselves on spam blacklists, because of the use of their redirect services by sites trying to bypass those very same blacklists. Some websites prevent short, redirected URLs from being posted.[2]
+Contents
+ [hide] 
+•	1 Purposes
+•	2 Registering a short URL
+•	3 Techniques 
+o	3.1 Statistics
+•	4 History
+•	5 Shortcomings 
+o	5.1 Abuse
+o	5.2 Linkrot
+o	5.3 Transnational law
+o	5.4 Blocking
+o	5.5 Privacy and security
+o	5.6 Additional layer of complexity
+•	6 Notable URL shortening services
+•	7 See also
+•	8 References
+•	9 External links
+
+[edit] Purposes
+There are several reasons to use URL shortening. Often regular unshortened links may be aesthetically unpleasing. Many web developers pass descriptive attributes in the URL to represent data hierarchies, command structures, transaction paths or session information. This can result in URLs that are hundreds of characters long and that contain complex character patterns. Such URLs are difficult to memorize, type-out and distribute. As a result, long URLs must be copied-and-pasted for reliability. Thus, short URLs may be more convenient for websites or hard copy publications (e.g. a printed magazine or a book), the latter often requiring that very long strings be broken into multiple lines (as is the case with some e-mail software or internet forums) or truncated.
+On Twitter and some instant-messaging services, there is a limit to the number of characters a message can carry. Using a URL shortener can allow linking to web pages which would otherwise violate this constraint. Some shortening services, such as tinyurl.com, and bit.ly, can generate URLs that are human-readable, although the resulting strings are longer than those generated by a length-optimized service. Finally, URL shortening sites provide detailed information on the clicks a link receives, which can be simpler than setting up an equally powerful server-side analytics engine.
+URLs encoded in two-dimensional barcodes such as QR code are often shortened by a URL shortener in order to reduce the printed area of the code or allow printing at lower density in order to improve scanning reliability.
+[edit] Registering a short URL
+An increasing number of websites are registering their own short URLs to make sharing via Twitter and SMS easier. This can normally be done online, at the web pages of a URL shortening service. Short URLs often circumvent the intended use of top-level domains for indicating the country of origin; domain registration in many countries requires proof of physical presence within that country, although a redirected URL has no such guarantee.
+[edit] Techniques
+See also: URL redirection
+In URL shortening, every long URL is associated with a unique key, which is the part after http://top-level domain name/, for example http://tinyurl.com/m3q2xt has a key of m3q2xt. Not all redirection is treated equally; the redirection instruction sent to a browser can contain in its header the HTTP status 301 (permanent redirect) 302, or 307 (temporary redirect).
+There are several techniques to implement a URL shortening. Keys can be generated in base 36, assuming 26 letters and 10 numbers. In this case, each character in the sequence will be 0, 1, 2, ..., 9, a, b, c, ..., y, z. Alternatively, if uppercase and lowercase letters are differentiated, then each character can represent a single digit within a number of base 62 (26 + 26 + 10). In order to form the key, a hash function can be made, or a random number generated so that key sequence is not predictable. Or users may propose their own keys. For example, http://en.wikipedia.org/w/index.php?title=TinyURL&diff=283621022&oldid=283308287 can be shortened to http://bit.ly/tinyurlwiki.
+Not all protocols are capable of being shortened, as of 2011, although protocols such as http, https, ftp, ftps, mailto, news, mms, rtmp, rtmpt, ed2k, pop, imap, nntp, news, ldap, gopher, dict and dns are being addressed by such services as URL Shortener. Typically, data: and javascript: URLs are not supported for security reasons. Some URL shortening services support the forwarding of mailto URLs, as an alternative to address munging, to avoid unwanted harvest by web crawlers or bots. This may sometimes be done using short, CAPTCHA-protected URLs, but this is not common.[3]
+Makers of URL Shorteners Usually register domain names with less popular or esoteric Top-level domains in order to achieve a short URL and a catchy name, often using domain hacks. This results in registration of different URL shorteners with a myriad of different countries, leaving no relation between the country where the domain has been registered and the URL shortener itself or the shortened links. Top-level domains of countries such as Libya (.ly), Samoa (.ws), Mongolia (.mn), Malaysia (.my) and Lichtenstein (.li) have been used as well as many others. In some cases, The Political or cultural aspects of the country In charge of the Top-level domain may become an issue for users and owners,[4] but this is not usually the case.
+Tinyarro.ws, urlrace.com, and qoiob.com use Unicode characters to achieve the shortest URLs possible, since more condensed URLs are possible with a given number of characters compared to those using a standard Latin alphabet.[citation needed]
+[edit] Statistics
+Services may record inbound statistics, which may be viewed publicly by others.[5]
+[edit] History
+An early reference is US Patent 6957224, which describes
+...a system, method and computer program product for providing links to remotely located information in a network of remotely connected computers. A uniform resource locator (URL) is registered with a server. A shorthand link is associated with the registered URL. The associated shorthand link and URL are logged in a registry database. When a request is received for a shorthand link, the registry database is searched for an associated URL. If the shorthand link is found to be associated with an URL, the URL is fetched, otherwise an error message is returned.[6]
+The patent was filed in September 2000; while the patent was issued in 2005, patent applications are made public within 18 months of filing.
+Another reference to URL shortening was in 2001.[7] The first notable URL shortening service, TinyURL, was launched in 2002. Its popularity influenced the creation of at least 100 similar websites,[8] although most are simply domain alternatives. Initially Twitter automatically translated long URLs using TinyURL, although it began using bit.ly in 2009.[9]
+In May 2009, the service .tk, which previously generated memorable domains via URL redirection, launched tweak.tk,[10] which generates very short URLs. On 14 August 2009, WordPress announced the wp.me URL shortener for use when referring to any WordPress.com blog post.[11] In November 2009, shortened links on bit.ly were accessed 2.1 billion times.[12] Around that time, bit.ly and TinyURL were the most widely used URL-shortening services.[12]
+On 10 August 2009, however, tr.im, announced that it was curtailing the generation of new shortened URLs, but assured that existing tr.im short URLs would "continue to redirect, and will do so until at least December 31, 2009". A blog post on the site attributed this move to several factors, including a lack of suitable revenue-generating mechanisms to cover ongoing hosting and maintenance costs, a lack of interest among possible purchasers of the service and Twitter's default use of the bit.ly shortener.[13] This blog post also questioned whether other shortening services can successfully make money from URL shortening in the longer term. A few days later, tr.im appeared to alter its stance, announcing that it would resume all operations "going forward, indefinitely, while we continue to consider our options in regards to tr.im's future"[14] but, as of July 11, 2011, the tr.im service failed.
+In December 2009, the URL shortener TO./ NanoURL was launched by .TO. This service creates a URL address which looks like http://to./xxxx, where xxxx represents a combination of random numbers and letters. NanoURL currently generates the shortest URLs of all URL shortening services, because it is hosted on a top-level domain (the one of Tonga). This rare form of URL may cause problems with some browsers, however, where the string is interpreted as a search term and passed to a search engine, instead of being opened.[15] As of 2011, the service is no longer available.
+On 14 December 2009, Google announced a service called Google URL Shortener at goo.gl, which originally was only available for use through Google products (such as Google Toolbar and FeedBurner).[16] It does, however, have two extensions (Standard and Lite versions) for Google Chrome.[17] On 21 December 2009, Google also announced a service called YouTube URL Shortener, youtu.be,[18] and since September 2010, Google URL Shortener has become available via a direct interface, Google's direct link (goo.gl) will ask you to prove you're not a robot with CAPTCHA (May 2012).
+[edit] Shortcomings
+ 
+This article's Criticism or Controversy section may compromise the article's neutral point of view of the subject. Please integrate the section's contents into the article as a whole, or rewrite the material. (October 2011) 
+[edit] Abuse
+URL shortening may be utilized by spammers or for illicit internet activities. As a result, many have been removed from online registries or shut down by web hosts or internet service providers.
+According to Tonic Corporation, the registry for .to domains, it is "very serious about keeping domains spam free" and may remove URL shortening services from their registry if the service is abused.[19]
+In addition, "u.nu" made the following announcement upon closing operations:
+The last straw came on September 3, 2010, when the server was disconnected without notice by our hosting provider in response to reports of a number of links to child pornography sites. The disconnection of the server caused us serious problems, and to be honest, the level and nature of the abuse has become quite demoralizing. Given the choice between spending time and money to find a different home, or just giving up, the latter won out.[20]
+Google's url-shortener discussion group has frequently included messages from frustrated users reporting that specific shortened URLs have been disabled after they were reported as spam.[21]
+A study in May 2012 showed that 61% of URL shorteners had shut down (614 of 1002).[22] The most common cause cited was abuse by spammers.
+[edit] Linkrot
+The convenience offered by URL shortening also introduces potential problems, which have led to criticism of the use of these services. Short URLs, for example, will be subject to linkrot if the shortening service stops working; all URLs related to the service will become broken. It is a legitimate concern that many existing URL shortening services may not have a sustainable business model in the long term. This worry was highlighted by a statement from tr.im in August 2009 (see above).[12] In late 2009, the Internet Archive started the "301 Works" projects, together with twenty collaborating companies (initially), whose short URLs will be preserved by the project.[12] The URL shortening service ur1.ca provides its entire database as a file download, so if its website stops working, other websites may be able to provide ways to correct broken links to URLs shortened with its service. A circumvention could be that a website provided its own shortlinks instead of relying on a shortening service - but this is not common.
+[edit] Transnational law
+Shortened internet links typically use foreign country domain names, and are therefore under the jurisdiction of that nation. Libya, for instance, exercised its control over the .ly domain in October 2010 to shut down vb.ly for violating Libyan pornography laws. Failure to predict such problems with URL shorteners and investment in URL shortening companies may reflect a lack of due diligence.[23]
+[edit] Blocking
+Some websites prevent short, redirected URLs from being posted.
+In 2009, the Twitter network replaced TinyURL with Bit.ly as its default shortener of links longer than twenty-six characters.[9] In April 2009, TinyURL was reported to be blocked in Saudi Arabia.[24] Yahoo! Answers blocks postings that contain TinyURLs and Wikipedia does not accept links by any URL shortening services in its articles.[25][26][27]
+[edit] Privacy and security
+Users may be exposed to privacy issues through a URL shortening service's ability to track a user's behavior across many domains.
+On the security side, a short URL obscures the target address, and as a result, can be used to redirect to an unexpected site. Examples of this are rickrolling, redirecting to shock sites, or to affiliate websites. Short URLs can also unexpectedly redirect a user to scam pages or pages containing malware or XSS attacks, which use the redirect to bypass URL blacklists. TinyURL tries to disable spam-related links from redirecting.[28] ZoneAlarm, however, has warned its users: "TinyURL may be unsafe. This website has been known to distribute spyware." TinyURL countered this problem by offering an option to preview a link before using a shortened URL. This ability is installed on the browser via the TinyURL website, however, and requires the use of cookies.[29] However, a preview may also be obtained by simply prefixing the word "preview" to the front of the URL: for example, http://tinyurl.com/8kmfp could be retyped as http://preview.tinyurl.com/8kmfp to see where the link will lead. Other URL shortening services have also added support for preview of a link using different user interfaces.[30] Security professionals suggest that users should always preview a short URL before accessing it, following an instance where the URL shortening service cli.gs was compromised, exposing millions of users to security uncertainties.[31]
+There are also several web applications that can expand a shortened URL to allow the user to check where it leads.
+Some URL shortening services have started filtering their links through services like Google Safe Browsing. Many sites that accept user-submitted content block links, however, to certain domains in order to cut down on spam and for this reason, known URL redirection services are often themselves added to spam blacklists.
+[edit] Additional layer of complexity
+Short URLs, although making it easier to access what might otherwise be a very long URL or user-space on an ISP server, add an additional layer of complexity to the process of retrieving web pages. Every access requires more requests (at least one more DNS lookup and HTTP request), thereby increasing latency, the time taken to access the page, and also the risk of failure, since the shortening service may become unavailable. Another operational limitation of URL shortening services is that browsers do not resend POST bodies when a redirect is encountered. This can be overcome by making the service a reverse proxy, or by elaborate schemes involving cookies and buffered POST bodies, but such techniques present security and scaling challenges, and are therefore not used on extranets or Internet-scale services.[original research?]
+[edit] Notable URL shortening services
+•	bitly
+•	TinyURL
+[edit] See also
+•	Clean URL – http://example.com/index.asp?mod=profiles&id=193 becomes http://example.com/user/john-doe
+•	Country code top-level domain
+•	Domain hack – an unconventional domain name that spells out the full "name" or title of the domain e.g. http://del.icio.us or http://goo.gl
+•	Domain name system
+•	Generic top-level domain
+•	Link rot
+•	List of Internet top-level domains
+•	Semantic URL
+•	Top-level domain
+•	URL redirection
+•	Vanity domain
+•	Vanity URL
+[edit] References
+1.	^ Goo.gl Challenges Bit.ly as King of the Short - New York Times, 14 December 2009
+2.	^ is.gd
+3.	^ "Spammers Storm URL Shortening Services". CertMag. 17 August 2009.
+4.	^ http://blog.hootsuite.com/li-ly-url-shortener/
+5.	^ Chapman, Stephen (28 August 2012). "How to spy on campaigns of competitors who use URL shorteners". ZDNet. Retrieved 10 September 2012.
+6.	^ US patent 6957224, Nimrod Megiddo and Kevin S. McCurley; assigned to IBM corp., "Efficient retrieval of uniform resource locators", issued 2005-10-18
+7.	^ "Comment thread 8916". Metafilter. 10 June 2001; Announcement of URL shortening service available at makeashorterlink.com
+8.	^ "URL Shortening Services" shortenurl – Supported URL shortening services
+9.	^ a b Wortham, Jenna (7 May 2009) "Bit.ly Eclipses TinyURL on Twitter" Bits (blog at The New York Times). Retrieved 1 January 2011.
+10.	^ "TweaK is the Shortest URL". TweaKdotTK – Twitter.
+11.	^ "WP.me — Shorten Your Links" WordPress. 14 August 2009.
+12.	^ a b c d Ahmed, Murad (7 December 2009). "New Project in Scramble To Save Vanishing Internet Links — The Internet Archive Is Fighting To Preserve Shortened Web Links Created by Free Online Services That May Be Running Out of Money". The Times. Retrieved 1 January 2011.
+13.	^ Blog[dead link]
+14.	^ Blog[dead link]
+15.	^ ".TO ccTLD Becomes Worlds Shortest URL Shortener" DomainNameNews. 3 March 2009.
+16.	^ "Making URLs Shorter for Google Toolbar and FeedBurner". Official Google Blog. 14 December 2009.
+17.	^ goo.gl "URL Shortener — Google Chrome Extension Gallery".
+18.	^ "Make Way for Youtu.be Links" YouTube Blog. 21 December 2009.
+19.	^ Tonic Corporation Frequently asked questions
+20.	^ http://u.nu/unu-discontinued "u.nu :: discontinued."
+21.	^ google-url-shortener group
+22.	^ "Ultimate list of URL shorteners"
+23.	^ Staff writer (14 October 2010). "Law, Politics and Internet Addresses — Tough.ly/Treated — Shortened Web Links Are Convenient, But They Come at a Price". The Economist. Retrieved 1 January 2010.
+24.	^ "TinyURL Blocked in Saudi Arabia". Committee to Protect Bloggers. 16 April 2009.
+25.	^ "Wikipedia:Manual of Style/Computing". Wikipedia. Wikipedia, The Free Encyclopedia. 6 November 2011. "Do not use URL shortening services such as bit.ly. Such URLs are maintained by independent entities and are susceptible to link rot."
+26.	^ "Spam_blacklist". meta.wikimedia.org. Meta, discussion about Wikimedia projects. 6 November 2011. "\bbit\.ly\b"
+27.	^ "Spam_blacklist". meta.wikimedia.org. Meta, discussion about Wikimedia projects. 6 November 2011. "\btinyurl\.(co\.uk"
+28.	^ Krebs, Brian (13 June 2006). "Spam Spotted Using TinyURL". Security Fixes (blog at The Washington Post). Retrieved 1 January 2011.
+29.	^ "Preview a TinyURL". TinyURL.
+30.	^ http://security.thejoshmeister.com/2009/04/how-to-preview-shortened-urls-tinyurl.html
+31.	^ "Updated: Cligs Got Hacked — Restoration from Backup Started" Blog at Cli.gs.
+Network security Reconnaissance attack
+A reconnaissance attack occurs when an adversary tries to learn information about your network 
+Reconnaissance is the unauthorized discovery and mapping of systems, services, or vulnerabilities.
+Reconnaissance is also known as information gathering and, in most cases, precedes an actual access or DoS attack. First, the malicious intruder typically conducts a ping sweep of the target network to determine which IP addresses are alive. Then the intruder determines which services or ports are active on the live IP addresses. From this information, the intruder queries the ports to determine the type and version of the application and operating system running on the target host.
+Reconnaissance is somewhat analogous to a thief investigating a neighborhood for vulnerable homes, such as an unoccupied residence or a house with an easy-to-open door or window. In many cases, intruders look for vulnerable services that they can exploit later when less likelihood that anyone is looking exists.
+Access Attacks
+An access attack occurs when someone tries to gain unauthorized access to a component, tries to gain unauthorized access to information on a component, or increases their privileges on a network component. Access attacks exploit known vulnerabilities in authentication services, FTP services, and web services to gain entry to web accounts, confidential databases, and other sensitive information.
+DoS Attacks
+DoS attacks involve an adversary reducing the level of operation or service, preventing access to, or completely crashing a network component or service.
+Password Attacks
+A password attack usually refers to repeated attempts to identify a user account, password, or both. These repeated attempts are called brute-force attacks. Password attacks are implemented using other methods, too, including Trojan horse programs, IP spoofing, and packet sniffers.
+  Password attack threat-mitigation methods
+A security risk lies in the fact that passwords are stored as plaintext. You need to encrypt passwords to overcome risks. On most systems, passwords are processed through an encryption algorithm that generates a one-way hash on passwords. You cannot reverse a one-way hash back to its original text. Most systems do not decrypt the stored password during authentication; they store the one-way hash. During the login process, you supply an account and password, and the password encryption algorithm generates a one-way hash. The algorithm compares this hash to the hash stored on the system. If the hashes are the same, the algorithm assumes that the user supplied the proper password.
+Remember that passing the password through an algorithm results in a password hash. The hash is not the encrypted password, but rather a result of the algorithm. The strength of the hash is that the hash value can be recreated only with the original user and password information and that retrieving the original information from the hash is impossible. This strength makes hashes perfect for encoding passwords for storage. In granting authorization, the hashes, rather than the plain password, are calculated and compared.
+Password attack threat-mitigation methods include these guidelines:
+•	Do not allow users to have the same password on multiple systems. Most users have the same password for each system they access, as well as for their personal systems.
+•	Disable accounts after a specific number of unsuccessful logins. This practice helps to prevent continuous password attempts.
+•	Do not use plaintext passwords. Use either a one-time password (OTP) or an encrypted password.
+•	Use strong passwords. Strong passwords are at least eight characters long and contain uppercase letters, lowercase letters, numbers, and special characters. Many systems now provide strong password support and can restrict users to strong passwords only.
+  The standard authentication protocols used by various network services, such as RAS and VPN, for authentication include the following:
+Password Authentication Protocol
+Password Authentication Protocol (PAP) The Password Authentication Protocol sends the user’s username and password in plain text. It is very insecure because someone can analyze and interpret the logon traffic. This is the authentication protocol used by the basic authentication method mentioned previously.
+Challenge Handshake Authentication Protocol
+Challenge Handshake Authentication Protocol (CHAP) With the Challenge Handshake Authentication Protocol, the server sends a client a challenge (a key), which is combined with the user’s password. Both the user’s password and the challenge are run through the MD5 hashing algorithm (a formula), which generates a hash value, or mathematical answer, and that hash value is sent to the server for authentication. The server uses the same key to create a hash value with the password stored on the server and then compares the resulting value with the hash value sent by the client. If the two hash values are the same, the client has supplied the correct password. The benefit is that the user’s credentials have not been passed on the wire at all.
+Microsoft Challenge Handshake Authentication Protocol MS-CHAP
+Microsoft Challenge Handshake Authentication Protocol MS-CHAP uses the Microsoft Point-to-Point Encryption (MPPE) protocol along with MS-CHAP to encrypt all traffic from the client to the server. MS-CHAP is a distinction of the CHAP authentication protocol and uses MD4 as the hashing algorithm versus MD5 used by CHAP.
+      MS-CHAPv2
+MS-CHAPv2 With MS-CHAP version 2 the authentication method has been extended to authenticate both the client and the server. MS-CHAPv2 also uses stronger encryption keys than CHAP and MS-CHAP.
+Extensible Authentication Protocol (EAP)
+Extensible Authentication Protocol (EAP) The Extensible Authentication Protocol allows for multiple logon methods such as smartcard logon, certificates, Kerberos, and public-key authentication. EAP is also frequently used with RADIUS, which is a central authentication service that can be used by RAS, wireless, or VPN solutions.
+Command Parameters	Descriptions
+access-list	Main command
+access-list-number	Identifies the list using a number in the ranges of 100–199 or 2000– 2699.
+permit | deny	Indicates whether this entry allows or blocks the specified address.
+protocol	IP, TCP, UDP, ICMP, GRE, or IGRP.
+source and destination	Identifies source and destination IP addresses.
+source-wildcard and destination-wildcard	The operator can be lt (less than), gt (greater than), eq (equal to), or neq (not equal to). The port number referenced can be either the source port or the destination port, depending on where in the ACL the port number is configured. As an alternative to the port number, well-known application names can be used, such as Telnet, FTP, and SMTP.
+established	For inbound TCP only. Allows TCP traffic to pass if the packet is a response to an outbound-initiated session. This type of traffic has the acknowledgement (ACK) bits set. (See the Extended ACL with the Established Parameter example.)
+log	Sends a logging message to the console.
+  Before we configure Extended Access list you should cram up some important port number 
+Well-Known Port Numbers and IP Protocols
+Port Number	IP Protocol
+20 (TCP)	FTP data
+21 (TCP)	FTP control
+23 (TCP)	Telnet
+25 (TCP)	Simple Mail Transfer Protocol (SMTP)
+53 (TCP/UDP)	Domain Name System (DNS)
+69 (UDP)	TFTP
+80 (TCP)	HTTP
+With Access Lists you will have a variety of uses for the wild card masks, but typically For CCNA exam prospective you should be able to do following:
+•	Block host to host
+•	Block host to network
+•	Block Network to network
+•	Block telnet access for critical resources of company
+•	Limited ftp access for user
+•	Stop exploring of private network form ping
+•	Limited web access
+•	Configure established keyword
+  Block host to host
+Task
+You are the network administrator at ComputerNetworkingNotes.com. Your company hire a new employee and give him a pc 10.0.0.3. your company's critical record remain in 40.0.0.3. so you are asked to block the access of 40.0.0.3 from 10.0.0.3. while 10.0.0.3 must be able connect with other computers of network to perfom his task.
+Decide where to apply ACL and in which directions.
+As we are configuring Extended access list. With extended access list we can filter the packed as soon as it genrate. So we will place our access list on F0/0 of Router1841 the nearest port of 10.0.0.3
+To configure Router1841 (Hostname R1) double click on it and select CLI
+R1>enable
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#access-list 101 deny ip host 10.0.0.3 40.0.0.3 0.0.0.0
+R1(config)#access-list 101 permit ip any any
+R1(config)#interface fastEthernet 0/0
+R1(config-if)#ip access-group 101 in
+R1(config-if)#exit
+R1(config)#
+Verify by doing ping from 10.0.0.3 to 40.0.0.3. It should be reqest time out. Also ping other computers of network including 40.0.0.2. ping shuld be sucessfully.
+Block host to network
+Task
+Now we will block the 10.0.0.3 from gaining access on the network 40.0.0.0. ( if you are doing this practical after configuring pervious example don't forget to remove the last access list 101. With no access-list command. Or just close the packet tracer without saving and reopen it to be continue with this example.)
+R1(config)#access-list 102 deny ip host 10.0.0.3 40.0.0.0 0.255.255.255
+R1(config)#access-list 102 permit ip any any
+R1(config)#interface fastEthernet 0/0
+R1(config-if)#ip access-group 102 in
+R1(config-if)#exit
+R1(config)#
+Verify by doing ping from 10.0.0.3 to 40.0.0.3. and 40.0.0.2.It should be reqest time out. Also ping computers of other network. ping shuld be sucessfully.
+Once you have calculated the wild card mask rest is same as we did in pervious example
+R2>enable
+Enter configuration commands, one per line.  End with CNTL/Z.
+R2(config)#access-list 2 deny 10.0.0.0 0.255.255.255
+R2(config)#access-list 2 permit any
+R2(config)#interface fastethernet 0/1
+R2(config-if)#ip access-group 2 out
+R2(config-if)#
+To test first do ping from 10.0.0.3 to 40.0.0.3 it should be request time out as this packet will filter by ACL. Then ping 30.0.0.3 it should be successfully replay.
+Network to Network Access List
+Task
+Student’s lab is configured on the network of 10.0.0.0. While management's system remain in the network of 40.0.0.0. You are asked to stop the lab system from gaining access in management systems
+Now we will block the network of 10.0.0.0 from gaining access on the network 40.0.0.0. ( if you are doing this practical after configuring pervious example don't forget to remove the last access list 101. With no access-list command. Or just close the packet tracer without saving and reopen it to be continue with this example.)
+R1(config)#access-list 103 deny ip 10.0.0.0 0.255.255.255 40.0.0.0 0.255.255.255
+R1(config)#access-list 103 permit ip any any
+R1(config)#interface fastethernet 0/0
+R1(config-if)#ip access-group 103 in
+R1(config-if)#exit
+R1(config)#
+Verify by doing ping from 10.0.0.3 and 10.0.0.2 to 40.0.0.3. and 40.0.0.2.It should be reqest time out. Also ping computers of other network. ping shuld be sucessfully.
+      Network to host
+Task
+For the final scenario you will block all traffic to 40.0.0.3 from the Network of 10.0.0.0 To accomplish this write an extended access list. The access list should look something like the following.
+R1(config)#interface fastethernet 0/0
+R1(config-if)#no ip access-group 103 in
+R1(config-if)#exit
+R1(config)#no access-list 103 deny ip 10.0.0.0 0.255.255.255 40.0.0.0 0.255.255.255
+R1(config)#access-list 104 deny ip 10.0.0.0 0.255.255.255 40.0.0.3 0.0.0.0
+R1(config)#access-list 104 permit ip any any
+R1(config)#interface fastethernet 0/0
+R1(config-if)#ip access-group 104 in
+R1(config-if)#exit
+R1(config)#
+Verify by doing ping from 10.0.0.3 and 10.0.0.2 to 40.0.0.3.It should be reqest time out. Also ping computers of other network. ping shuld be sucessfully.
+Application based Extended Access list
+In pervoius example we filter ip base traffic. Now we will filter applicaion base traffic. To do this practical either create a topology as shown in figure and enable telnet and http and ftp service on server or download this pre configured topology and load it in packet tracer.
+Extended Access list
+ 
+The established keyword
+The established keyword is a advanced feature that will allow traffic through only if it sees that a TCP session is already established. A TCP session is considered established if the three-way handshake is initiated first. This keyword is added only to the end of extended ACLs that are filtering TCP traffic.
+You can use TCP established to deny all traffic into your network except for incoming traffic that was first initiated from inside your network. This is commonly used to block all originating traffic from the Internet into a company's network except for Internet traffic that was first initiated from users inside the company. The following configuration would accomplish this for all TCP-based traffic coming in to interface serial 0/0/0 on the router:
+R1(config)#access-list 101 permit tcp any any established
+R1(config)#interface serial 0/0/0
+R1(config-if)#ip access-group 101 in
+R1(config-if)#exit
+Although the access list is using a permit statement, all traffic is denied unless it is first established from the inside network. If the router sees that the three-way TCP handshake is successful, it will then begin to allow traffic through.
+To test this access list double click on any pc from the network 10.0.0.0 and select web brower. Now give the ip of 30.0.0.2 web server. It should get sucessfully access the web page. Now go 30.0.0.2 and open command prompt. And do ping to 10.0.0.2 or any pc from the network the 10.0.0.0. it will request time out.
+Stop ping but can access web server
+We host our web server on 30.0.0.2. But we do not want to allow external user to ping our server as it could be used as denial of services. Create an access list that will filter all ping requests inbound on the serial 0/0/0 interface of router2.
+R2(config)#access-list 102  deny icmp any any echo
+R2(config)#access-list 102 permit ip any any
+R2(config)#interface serial 0/0/0
+R2(config-if)#ip access-group 102 in
+To test this access list ping from 10.0.0.2 to 30.0.0.2 it should be request time out. Now open the web browser and access 30.0.0.2 it should be successfully retrieve
+Grant FTP access to limited user
+You want to grant ftp access only to 10.0.0.2. no other user need to provide ftp access on server. So you want to create a list to prevent FTP traffic that originates from the subnet 10.0.0.0/8, going to the 30.0.0.2 server, from traveling in on Ethernet interface E0/1 on R1.
+R1(config)#access-list 103 permit tcp host 10.0.0.2 30.0.0.2 0.0.0.0 eq 20
+R1(config)#access-list 103 permit tcp host 10.0.0.2 30.0.0.2 0.0.0.0 eq 21
+R1(config)#access-list 103 deny tcp any any eq 20
+R1(config)#access-list 103 deny tcp any any eq 21
+R1(config)#access-list 103 permit ip any any
+R1(config)#interface fastethernet 0/1
+R1(config-if)#ip access-group 103 in
+R1(config-if)#exit
+Grant Telnet access to limited user
+For security purpose you don’t want to provide telnet access on server despite your own system. Your system is 10.0.0.4. create a extended access list to prevent telnet traffic that originates from the subnet of 10.0.0.0 to server.
+R1(config)#access-list 104 permit tcp host 10.0.0.4 30.0.0.2 0.0.0.0 eq 23
+R1(config)#access-list 104 deny tcp 10.0.0.0 0.255.255.255 30.0.0.2 0.0.0.0 eq 23
+R1(config)#access-list 104 permit ip any any
+R1(config)#interface fast 0/1
+R1(config-if)#ip access-group 104 in
+R1(config-if)#exit
+Ping sweep
+In computing, a ping sweep is a method that can establish a range of IP addresses which map to live hosts.
+The classic tool used for ping sweeps is fping,[1][2][3] which traditionally was accompanied by gping to generate the list of hosts for large subnets,[4] although more recent version of fping include that functionality.[1] Well-known tools with ping sweep capability include nmap for Unix systems, and the Pinger software from Rhino9 for Windows NT.[4][5] There are many other tools with this capability, including:[2][5] Hping, Simple Nomad's ICMPEnum, SolarWind's Ping Sweep, and Foundstone's SuperScan.
+Pings can be detected by protocol loggers like ippl.[3]
+A ping sweep, also called an Internet Control Message Protocol (ICMP) sweep, is a diagnostic technique used in computing to see what range of Internet Protocol (IP) addresses are in use by live hosts, which are usually computers. It is usually used to tell where active machines are on a network, and is sometimes utilized by a system administrator for diagnosing a network issue. Ping sweeps are also used by computer hackers, those seeking to break into a network, to see what computers are active so they know where to concentrate their attacks.
+The word ping originated from sonar technology. It is the common way submarines work to detect bodies in water. A sound packet is sent out and if there is an object in the way, the sound packet comes back, and is usually picked up as a “pinging” sound when received.
+In computer technology, the single ping is sent using an ICMP echo request. The packet is sent to a specific IP address and if that address is active, it will send back notification. Ping requests also offer other information, such as how long the signal took to get back as well as if there was any packet loss. A variety of commands that can be added to the ping request, so it can also send back much more information.
+Multiple ICMP echo packets are sent to multiple hosts during a ping sweep. If a host is active then it will return the ICMP echo request. The request is a bit more complicated than a single ping, and specialized versions of the ping utility will typically be used. One of the most well-known ping sweep utilities is called Fping. It works differently than a single ping utility, like the one that is built into all Windows® operating systems.
+Unlike a single ping request, Fping can utilize a list of addresses from a file so the user doesn’t have to manually enter in each address. It also works in a round-robin fashion, and once it pings one host, it moves onto the next one without waiting. Fping is meant to be used in a script for ease of use, unlike the single ping request program.
+Unfortunately, the bulk of those who use a ping sweep are hackers. They use it to check large networks so they know where to focus their efforts. Hackers can also slow down traffic on a network if they continually ping addresses. Many network systems have ways of blocking this type of traffic, but the easiest way is to disable ICMP packets. If a system administrator needs to do a ping sweep, he could simply re-enable ICMP packets temporarily. Ping sweeps are considered older and slower technology, and they are not in use as much as in the past.
+http://www.wisegeek.com/what-is-a-ping-sweep.htm#did-you-know
+Free Ping Sweep Tool
+•	Pings a range of IP addresses to find out which addresses are active, which are not, and resolve their domain name
+•	Easily configure settings such as ping timeout, packet time to live, and the delay between pings
+•	Print or export the results for analysis and follow up activities
+Traceroute
+In computing, traceroute is a computer network diagnostic tool for displaying the route (path) and measuring transit delays of packets across an Internet Protocol (IP) network. The history of the route is recorded as the round-trip times of the packets received from each successive host (remote node) in the route (path); the sum of the mean times in each hop indicates the total time spent to establish the connection. Traceroute proceeds unless all (three) sent packets are lost more than twice, then the connection is lost and the route cannot be evaluated. Ping, on the other hand, only computes the final round-trip times from the destination point.
+ 
+ 
+traceroute outputs the list of traversed routers in simple text format, together with timing information
+The traceroute command is available on a number of modern operating systems.
+On the Apple Mac OS, the traceroute tool is available through opening 'Network Utilities' then selecting 'Traceroute' tab, or typing the "traceroute" command in the terminal. On Microsoft Windows operating systems it is named tracert. Windows NT-based operating systems also provide PathPing, with similar functionality. Variants with similar functionality are also available, such as tracepath on Linux installations. For Internet Protocol Version 6 (IPv6) the tool sometimes has the name traceroute6.
+ 
+ 
+Traceroute on Snow Leopard – Mac
+Contents
+ [hide] 
+•	1 Implementation
+•	2 Usage
+•	3 Origins
+•	4 See also
+•	5 References
+•	6 External links
+
+[edit] Implementation
+Traceroute sends a sequence of three Internet Control Message Protocol (ICMP) echo request packets addressed to a destination host. The time-to-live (TTL) value, also known as hop limit, is used in determining the intermediate routers being traversed towards the destination. Routers decrement packets' TTL value by 1 when routing and discard packets whose TTL value has reached zero, returning the ICMP error message ICMP Time Exceeded. Common default values for TTL are 128 (Windows OS) and 64 (Linux-based OS).
+Traceroute works by sending packets with gradually increasing TTL value, starting with TTL value = 1. The first router receives the packet, decrements the TTL value and drops the packet because it then has TTL value zero. The router sends an ICMP Time Exceeded message back to the source. The next set of packets are given a TTL value of 2, so the first router forwards the packets, but the second router drops them and replies with ICMP Time Exceeded. Proceeding in this way, traceroute uses the returned ICMP Time Exceeded messages to build a list of routers that packets traverse, until the destination is reached and returns an ICMP Echo Reply message.
+The timestamp values returned for each router along the path are the delay (latency) values, typically measured in milliseconds for each packet.
+Hop 192.168.1.2 Depth 1
+    Probe status: unsuccessful
+    Parent: ()
+    Return code: Label-switched at stack-depth 1
+    Sender timestamp: 2008-04-17 09:35:27 EDT 400.88 msec
+    Receiver timestamp: 2008-04-17 09:35:27 EDT 427.87 msec
+    Response time: 26.92 msec
+    MTU: Unknown
+    Multipath type: IP
+      Address Range 1: 127.0.0.64 ~ 127.0.0.127
+    Label Stack:
+      Label 1 Value 299792 Protocol RSVP-TE
+The sender expects a reply within a specified number of seconds. If a packet is not acknowledged within the expected interval, an asterisk is displayed. The Internet Protocol does not require packets to take the same route towards a particular destination, thus hosts listed might be hosts that other packets have traversed. If the host at hop #N does not reply, the hop is skipped in the output.
+On Unix-like operating systems, the traceroute utility uses User Datagram Protocol (UDP) datagrams by default, with destination port numbers ranging from 33434 to 33534. The traceroute utility usually has an option to instead use ICMP echo request (type 8), like the Windows tracert utility does. If a network has a firewall and operates both Windows and Unix-like systems, both protocols must be enabled inbound through the firewall for traceroute to work and receive replies.
+Some traceroute implementations use TCP packets, such as tcptraceroute or layer four traceroute. PathPing is a utility introduced with Windows NT that combines ping and traceroute functionality. MTR is an enhanced version of ICMP traceroute available for Unix-like and Windows systems. The various implementations of traceroute all rely on ICMP Time Exceeded (type 11) packets being sent to the source.
+The implementations of traceroute shipped with Linux, FreeBSD, NetBSD, OpenBSD, DragonFly BSD, and Mac OS X include an option to use ICMP Echo packets (-I) or any arbitrary protocol (-P) such as UDP, TCP, ICMP.
+[edit] Usage
+Most implementations include at least options to specify the number of queries to send per hop, time to wait for a response, the hop limit and port to use. traceroute will display the options if invoked without any, man traceroute will display details including error flags displayed. Simple example on Linux:
+traceroute -w 3 -q 1 -m 16   example.com
+Only wait 3 seconds (instead of 5), only send out 1 query to each hop (instead of 3), limit the maximum number of hops to 16 before giving up (instead of 30) with the final host example.com
+This can help identify incorrect routing table definitions or firewalls that may be blocking ICMP traffic, or high port UDP in UNIX ping, to a site. Note that a firewall may permit ICMP packets but not permit packets of other protocols.
+Traceroute is also used by penetration testers to gather information about network infrastructure and IP ranges around a given host.
+It can also be used when downloading data, and if there are multiple mirrors available for the same piece of data, one can trace each mirror to get a good idea of which mirror would be the fastest to use.
+[edit] Origins
+The traceroute manual page states that the original traceroute program was written by Van Jacobson in 1987 from a suggestion by Steve Deering, with particularly cogent suggestions or fixes from C. Philip Wood, Tim Seaver and Ken Adelman. Also, the inventor of the ping program, Mike Muuss, states on his website that traceroute was written using kernel ICMP support that he had earlier coded to enable raw ICMP sockets when he first wrote the ping program.[1]
+[edit] See also
+•	Hop (networking)
+•	Hop (telecommunications)
+•	Hop count
+•	Time to live
+•	Looking Glass servers
+•	MTR (software) – computer software which combines the functionality of the traceroute and ping programs in a single network diagnostic tool.
+•	PathPing – a Windows NT network utility that combines the functionality of ping with that of traceroute (or tracert).
+•	netsniff-ng, a Linux networking toolkit with an autonomous system traceroute utility
+•	Layer four traceroute
+[edit] References
+1.	^ The Story of the PING Program
+How to Use the Traceroute Command
+Traceroute is a command which can show you the path a packet of information takes from your computer to one you specify. It will list all the routers it passes through until it reaches its destination, or fails to and is discarded. In addition to this, it will tell you how long each 'hop' from router to router takes.
+In Windows, select Start > Programs > Accessories > Command Prompt. This will give you a window like the one below.
+Enter the word tracert, followed by a space, then the domain name.
+The following is a successful traceroute from a home computer in New Zealand to mediacollege.com:
+ 
+
+
+Firstly it tells you that it's tracing the route to mediacollege.com, tells you the IP address of that domain, and what the maximum number of hops will be before it times out.
+
+Next it gives information about each router it passes through on the way to its destination.
+1 is the internet gateway on the network this traceroute was done from (an ADSL modem in this case)
+2 is the ISP the origin computer is connected to (xtra.co.nz)
+3 is also in the xtra network
+4 timed out
+5 - 9 are all routers on the global-gateway.net.nz network (the domain that is the internet gateway out of New Zealand)
+10 - 14 are all gnaps.net in the USA (a telecom supplier in the USA)
+15 - 17 are on the nac network (Net Access Corporation, an ISP in the New York area)
+18 is a router on the network mediacollege.com is hosted on
+and finally, line 19 is the computer mediacollege.com is hosted on (sol.yourhost.co.nz)
+Each of the 3 columns are a response from that router, and how long it took (each hop is tested 3 times). For example, in line 2, the first try took 240ms (240 milliseconds), the second took 421 ms, and the third took 70ms.
+You will notice that line 4 'timed out', that is, there was no response from the router, so another one was tried (202.50.245.197) which was successful.
+You will also notice that the time it took quadrupled while passing through the global-gateway network.
+This is extremely useful when trying to find out why a website is unreachable, as you will be able to see where the connection fails. If you have a website hosted somewhere, it would be a good idea to do a traceroute to it when it is working, so that when it fails, you can do another traceroute to it (which will probably time out if the website is unreachable) and compare them. Be aware though, that it will probably take a different route each time, but the networks it passes through will generally be very similar. 
+If the example above had continued to time out after line 9, you could suspect that global-gateway.co.nz was the problem, and not mediacollege.com.
+If it timed out after line 1, you would know there was a problem connecting to your ISP (in this case you would not be able to access anything on the internet).
+It is generally recommended that if you have a website that is unreachable, you should use both the traceroute and ping commands before you contact your ISP to complain. More often that not, there will be nothing to your ISP or hosting company can do about it.
+Reverse DNS lookup
+In computer networking, reverse DNS lookup or reverse DNS resolution (rDNS) is the determination of a domain name that is associated with a given IP address using the Domain Name Service (DNS) of the Internet.
+Computer networks use the Domain Name System to determine the IP address associated with a domain name. This process is also known as forward DNS resolution. Reverse DNS lookup is the inverse process, the resolution of an IP address to its designated domain name.
+The reverse DNS database of the Internet is rooted in the Address and Routing Parameter Area (arpa) top-level domain of the Internet. IPv4 uses the in-addr.arpa domain and the ip6.arpa domain is delegated for IPv6. The process of reverse resolving an IP address uses the pointer DNS record type (PTR record).
+Internet official documents (RFC 1033, RFC 1912 Section 2.1) specify that "Every Internet-reachable host should have a name" and that such names match with a reverse pointer record.
+[edit] IPv4 reverse resolution
+Reverse DNS lookups for IPv4 addresses use a reverse IN-ADDR entry in the special domain in-addr.arpa. In this domain, an IPv4 address is represented as a concatenated sequence of four decimal numbers, separated by dots, to which is appended the second level domain suffix .in-addr.arpa. The four decimal numbers are obtained by splitting the 32-bit IPv4 address into four 8-bit portions and converting each 8-bit portion into a decimal number. These decimal numbers are then concatenated in the order: least significant 8-bit portion first (leftmost), most significant 8-bit portion last (rightmost). It is important to note that this is the reverse order to the usual dotted-decimal convention for writing IPv4 addresses in textual form. For example, an address (A) record for mail.example.com points to the IP address 192.0.2.5. In pointer records of the reverse database, this IP address is stored as the domain name 5.2.0.192.in-addr.arpa pointing back to its designated host name mail.example.com. This allows it to pass the Forward Confirmed reverse DNS process.
+[edit] Classless reverse DNS method
+Historically, Internet registries and Internet service providers allocated IP addresses in blocks of 256 (for Class C) or larger octet-based blocks for classes B and A. By definition, each block fell upon an octet boundary. The structure of the reverse DNS domain was based on this definition. However, with the introduction of Classless Inter-Domain Routing, IP addresses were allocated in much smaller blocks, and hence the original design of pointer records was impractical, since autonomy of administration of smaller blocks could not be granted. RFC 2317 devised a methodology to address this problem by using canonical name (CNAME) DNS records.
+[edit] IPv6 reverse resolution
+Reverse DNS lookups for IPv6 addresses use the special domain ip6.arpa. An IPv6 address appears as a name in this domain as a sequence of nibbles in reverse order, represented as hexadecimal digits as subdomains. For example, the pointer domain name corresponding to the IPv6 address 2001:db8::567:89ab is b.a.9.8.7.6.5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.8.b.d.0.1.0.0.2.ip6.arpa.
+[edit] Multiple pointer records
+While most rDNS entries only have one PTR record, DNS does not restrict the number. However, having multiple PTR records for the same IP address is generally not recommended, unless there is a specific need. For example, if a web server supports many virtual hosts, there may be one PTR record for each host and some versions of name server software will allocate this automatically. Multiple PTR records can cause problems, however, including triggering bugs in programs that only expect single PTR records [1] and, in the case of a large web server, having hundreds of PTR records can cause the DNS packets to be much larger than normal.
+[edit] Records other than PTR records
+Record types other than PTR records may also appear in the reverse DNS tree. In particular, encryption keys may be placed there for IPsec (RFC 4025), SSH (RFC 4255) and IKE (RFC 4322), for example. Less standardized usages include comments placed in TXT records and LOC records to identify the geophysical location of an IP address.
+[edit] Uses
+The most common uses of the reverse DNS include:
+•	The original use of the rDNS: network troubleshooting via tools such as traceroute, ping, and the "Received:" trace header field for SMTP e-mail, web sites tracking users (especially on Internet forums), etc.
+•	One e-mail anti-spam technique: checking the domain names in the rDNS to see if they are likely from dialup users, dynamically assigned addresses, or other inexpensive internet services. Owners of such IP addresses typically assign them generic rDNS names such as "1-2-3-4-dynamic-ip.example.com." Since the vast majority, but by no means all, of e-mail that originates from these computers is spam, many spam filters refuse e-mail with such rDNS names.[2][3]
+•	A forward-confirmed reverse DNS (FCrDNS) verification can create a form of authentication showing a valid relationship between the owner of a domain name and the owner of the server that has been given an IP address. While not very thorough, this validation is strong enough to often be used for whitelisting purposes, mainly because spammers and phishers usually can't pass verification for it when they use zombie computers to forge domains.
+•	System logging or monitoring tools often receive entries with the relevant devices specified only by IP addresses. To provide more human-usable data, these programs often perform a reverse lookup before writing the log, thus writing a name rather than the IP address
+[edit] See also
+•	Forward-confirmed reverse DNS
+[edit] References
+1.	^ glibc bug #5790
+2.	^ spamhaus's FAQ
+3.	^ reference page from AOL
+Reverse DNS lookup
+What is this tool?
+This test will see if a reverse DNS entry exists for an IP address, and will also show you how the entry is found (the route of DNS servers that is taken), and who to contact to get a reverse DSN entry if none is found. The RFCs say that you should have a reverse DNS entry for every host on the Internet. If a mail server is missing a reverse DNS entry, other mail servers may reject mail from it. It supports IPv6 reverse DNS lookups, too.
+How do the results help me?
+•	To get Info about an IP causing problems 
+•	To verify that a mail server has a Reverse DNS Entry 
+•	To Gather Data about who is visiting your web site 
+The advanced version features the server field allows you to test the reverse DNS on a new DNS server.
+Help me find this tool
+ 
+
+ 
+
+... or, "Almost a Reverse DNS FAQ"
+Reverse DNS turns an IP address into a hostname -- for example, it might turn 192.0.2.25 into host.example.com.
+
+For your domains, standard DNS (turning a hostname into an IP address, such as turning host.example.com into 192.0.2.25) starts with the company (registrar) that you registered your domains with. You let them know what DNS servers are responsible for your domain names, and the registrar sends this information to the root servers (technically, the parent servers for your TLD). Then, anyone in the world can access your domains, and you can send them to any IP addresses you want. You have full control over your domains, and can send people to any IPs (whether or not you have control over those IPs, although you should have permission to send them to IPs that are not yours).
+
+Reverse DNS uses a similar method. For your IPs, reverse DNS (turning 192.0.2.25 back into host.example.com) starts with your ISP (or whoever told you what your IP addresses are). You let them know what DNS servers are responsible for the reverse DNS entries for your IPs (or, they can enter the reverse DNS entries on their DNS servers), and your ISP gives this information out when their DNS servers get queried for your reverse DNS entries. Then, anyone in the world can look up the reverse DNS entries for your IPs, and you can return any hostnames you want (whether or not you have control over those domains, although you should have permission to point them to hostnames that are not on your domains).
+
+So for both standard DNS and reverse DNS, there are two steps: [1] You need DNS servers, and [2] You need to tell the right company (your registrar for standard DNS lookups, or your ISP for reverse DNS lookups) where your DNS servers are located. Without Step 2, nobody will be able to reach your DNS servers.
+
+If you can comprehend the above paragraphs (which takes some time), you'll understand the biggest problem that people have with reverse DNS entries. The biggest problem people have is that they have DNS servers that work fine with their domains (standard DNS), they add reverse DNS entries to those servers, and it doesn't work. If you understand the above paragraphs, you'll see the problem: If your ISP doesn't know that you have DNS servers to handle the reverse DNS for your IPs, they won't send that information to the root servers, and nobody will even get to your DNS servers for reverse DNS lookups.
+
+Basic Concepts:
+
+    * Reverse DNS turns 192.0.2.25 into host.example.com (an IP address into a host name).
+    * Typical reverse DNS lookup path: DNS resolver => root servers => ARIN (North American IP registry) => Local ISP => Acme Inc. DNS servers.
+    * Whoever supplies your IP addresses (usually your ISP) MUST either [1] set up your reverse DNS entries on their DNS servers, or [2] "delegate authority" for your reverse DNS entries to your DNS servers.
+    * Reverse DNS entries use a host name with a reversed IP address with ".in-addr.arpa" added to it -- for example, "25.2.0.192.in-addr.arpa" (".ip6.arpa" is used for IPv6 reverse DNS lookups).
+    * Reverse DNS entries are set up with PTR records (whereas standard DNS uses A records), which look like "25.2.0.192.in-addr.arpa. PTR host.example.com" (whereas standard DNS would look like "host.example.com. A 192.0.2.25").
+    * All Internet hosts should have a reverse DNS entry (see RFC1912 section 2.1).
+    * Mail servers with no reverse DNS will have a hard time getting mail to certain large ISPs. 
+
+Very Common Myth:
+
+    * Myth: If you have a reverse DNS entry listed in your DNS server, you have reverse DNS properly set up.
+      Fact: This is often not the case. You need TWO things in order to have your DNS set up properly:
+          o 1. Your DNS servers (or your ISP's) MUST have the reverse DNS entries set up ("25.2.0.192.in-addr.arpa. PTR host.example.com").
+          o 2. AND your ISP or bandwidth provider MUST set up the reverse DNS on their end, so that DNS resolvers around the world will know that your DNS servers are the ones to go to when looking up the reverse DNS for your IP addresses. 
+
+How a reverse DNS lookup is accomplished:
+
+    * The DNS resolver reverses the IP, and adds it to ".in-addr.arpa" (or ".ip6.arpa" for IPv6 lookups), turning 192.0.2.25 into 25.2.0.192.in-addr.arpa.
+    * The DNS resolver then looks up the PTR record for 25.2.0.192.in-addr.arpa.
+          o The DNS resolver asks the root servers for the PTR record for 25.2.0.192.in-addr.arpa.
+          o The root servers refer the DNS resolver to the DNS servers in charge of the Class A range (192.in-addr.arpa, which covers all IPs that begin with 192).
+          o In almost all cases, the root servers will refer the DNS resolver to a "RIR" ("Regional Internet Registry"). These are the organizations that allocate IPs. In general, ARIN handles North American IPs, APNIC handles Asian-Pacific IPs, and RIPE handles European IPs.
+
+          o The DNS resolver will ask the ARIN DNS servers for the PTR record for 25.2.0.192.in-addr.arpa.
+          o The ARIN DNS servers will refer the DNS resolver to the DNS servers of the organization that was originally given the IP range. These are usually the DNS servers of your ISP, or their bandwidth provider.
+
+          o The DNS resolver will ask the ISP's DNS servers for the PTR record for 25.2.0.192.in-addr.arpa.
+          o The ISP's DNS servers will refer the DNS resolver to the organization's DNS servers.
+
+          o The DNS resolver will ask the organization's DNS servers for the PTR record for 25.2.0.192.in-addr.arpa.
+          o The organization's DNS servers will respond with "host.example.com".
+  
+
+hosts (file)
+The hosts file is a computer file used by an operating system to map hostnames to IP addresses. The hosts file is a plain text file, and is conventionally named hosts.
+Contents
+ [hide] 
+•	1 Purpose
+•	2 File content
+•	3 Location in the file system
+•	4 History
+•	5 Extended applications
+•	6 Security issues
+•	7 References
+•	8 External links
+
+[edit] Purpose
+The hosts file is one of several system facilities that assists in addressing network nodes in a computer network. It is a common part of an operating system's Internet Protocol (IP) implementation, and serves the function of translating human-friendly hostnames into numeric protocol addresses, called IP addresses, that identify and locate a host in an IP network.
+In some operating systems, the hosts file's content is used preferentially to other methods, such as the Domain Name System (DNS), but many systems implement name service switches (e.g., nsswitch.conf for Linux and Unix) to provide customization. Unlike the DNS, the hosts file is under the direct control of the local computer's administrator.[1]
+[edit] File content
+The hosts file contains lines of text consisting of an IP address in the first text field followed by one or more host names. Each field is separated by white space (blanks or tabulation characters). Comment lines may be included; they are indicated by a hash character (#) in the first position of such lines. Entirely blank lines in the file are ignored. For example, a typical hosts file may contain the following:
+# This is an example of the hosts file
+127.0.0.1  localhost loopback
+::1        localhost
+This example only contains entries for the loopback addresses of the system and their host names, a typical default content of the hosts file. The example illustrates that an IP address may have multiple host names, and that a host name may be mapped to both IPv4 and IPv6 IP addresses.
+[edit] Location in the file system
+The location of the hosts file in the file system hierarchy varies by operating system. The hosts file is usually named "hosts" without any .txt extension.
+Operating System	Version(s)	Location
+Unix, Unix-like, POSIX
+	/etc/hosts[2]
+
+Microsoft Windows
+3.1
+%WinDir%\HOSTS
+
+	95, 98/98SE, Me
+%WinDir%\hosts[3]
+
+	NT, 2000, XP (x86 & x64),[4] 2003, Vista, 7 and 8
+%SystemRoot%\system32\drivers\etc\hosts [5]
+
+Windows Mobile
+	Registry key under HKEY_LOCAL_MACHINE\Comm\Tcpip\Hosts
+Apple Macintosh
+9 and earlier	Preferences or System folder
+	Mac OS X 10.0 – 10.1.5 [6]
+(Added through NetInfo or niload)
+	Mac OS X 10.2 and newer	/etc/hosts (a symbolic link to /private/etc/hosts)[6]
+
+Novell NetWare
+	SYS:etc\hosts
+OS/2 & eComStation
+	"bootdrive":\mptn\etc\
+Symbian
+Symbian OS 6.1–9.0	C:\system\data\hosts
+	Symbian OS 9.1+
+C:\private\10000882\hosts
+MorphOS
+NetStack	ENVARC:sys/net/hosts
+AmigaOS
+4	DEVS:Internet/hosts
+Android
+	/etc/hosts (a symbolic link to /system/etc/hosts)
+iOS
+iOS 2.0 and newer	/etc/hosts (a symbolic link to /private/etc/hosts)
+TOPS-20
+	<SYSTEM>HOSTS.TXT
+Plan 9
+	/lib/ndb/hosts
+BeOS
+	/boot/beos/etc/hosts[7]
+
+Haiku
+	/boot/common/settings/network/hosts[7]
+
+OpenVMS
+UCX	UCX$HOST
+	TCPware
+TCPIP$HOST
+[edit] History
+The ARPANET, the predecessor of the Internet, had no distributed host name database. Each network node maintained its own map of the network nodes as needed and assigned them names that were memorable to the users of the system. There was no method for ensuring that all references to a given node in a network were using the same name, nor was there a way to read the hosts file of another computer to automatically obtain a copy.
+The small size of the ARPANET kept the administrative overhead small to maintain an accurate hosts file. Network nodes typically had one address and could have many names. As local area TCP/IP computer networks gained popularity, however, the maintenance of hosts files became a larger burden on system administrators as networks and network nodes were being added to the system with increasing frequency.
+Standardization efforts, such as the format specification of the file HOSTS.TXT in RFC 952, and distribution protocols, e.g., the hostname server described in RFC 953, helped with these problems, but the centralized and monolithic nature of hosts files eventually necessitated the creation of the distributed Domain Name System (DNS).
+On some old systems a file named networks is present that has similar to hosts file functions containing names of networks.
+[edit] Extended applications
+In its function of resolving host names, the hosts file may be used to define any hostname or domain name for use in the local system. This may be used either beneficially or maliciously for various effects.
+Redirecting local domains
+Some web service and intranet developers and administrators define locally defined domains in a LAN for various purposes, such as accessing the company's internal resources or to test local websites in development.
+Internet resource blocking
+Specially crafted entries in the hosts file may be used to block online advertising, or the domains of known malicious resources and servers that contain spyware, adware, and other malware. This may be achieved by adding entries for those sites to redirect requests to another address that does not exist or to a harmless destination (e.g. localhost).
+Various software applications exist that populate the hosts file with entries of undesirable Internet resources automatically.
+[edit] Security issues
+The hosts file represents an attack vector for malicious software. The file may be modified, for example, by adware, computer viruses, or trojan horse software to redirect traffic from the intended destination to sites hosting malicious or unwanted content.[8] The widespread computer worm Mydoom.B blocked users from visiting sites about computer security and antivirus software and also affected access from the compromised computer to the Microsoft Windows Update website.
+[edit] References
+1.	^ "Cisco Networking Academy Program: First-Year Companion Guide", Cisco Systems, Inc., 2002 (2nd Edition), page 676, ISBN 1-58713-025-4
+2.	^ "Linux Network Administrators Guide – Writing hosts and networks files". Retrieved May 16, 2010.
+3.	^ "Hosts File". Retrieved August 10, 2011.
+4.	^ "Microsoft KB Q314053: TCP/IP and NBT configuration parameters for Windows XP". Retrieved August 28, 2010.
+5.	^ "Microsoft KB 972034 Revision 2.0: default hosts files". Retrieved August 28, 2010.
+6.	^ a b "Mac OS X: How to Add Hosts to Local Hosts File". Retrieved August 28, 2010.
+7.	^ a b "The Haiku/BeOS Tip Server". Retrieved November 30, 2012.
+8.	^ "Remove Trojan.Qhosts – Symantec". Retrieved May 16, 2010.
+How can I reset the Hosts file back to the default?
+http://support.microsoft.com/kb/972034
+
